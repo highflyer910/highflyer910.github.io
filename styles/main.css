@@ -1,0 +1,128 @@
+
+* {
+  margin: 0;
+  padding: 0;  box-sizing: border-box;
+}
+
+*:before, *:after { box-sizing: border-box; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+section, summary {
+ display: block;
+}
+
+mark {
+  color: white;
+  background: #52524E;
+}
+
+html, body {
+  background: #233142;
+  font: 100% Helvetica, sans-serif;
+}
+
+h1 { 
+  font-size: 2em; 
+}
+
+.s3d__side {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.s3d__side.active h1 { left: -1%; }
+
+.s3d__side:nth-child(1) { background-color: #F86161; }
+
+.s3d__side:nth-child(2) { background-color: #455D7A; }
+
+.s3d__side:nth-child(3) { background-color: #E3E3E3; }
+
+.s3d__side h1 {
+  display: inline-block;
+  position: absolute;
+  left: -100%;
+  bottom: 5%;
+  padding: .2% 1.5% .2% 2.5%;
+  background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
+  color: #E3E3E3;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+  border-radius: 1px;
+  -webkit-transition: left 1s cubic-bezier(0.175, 0.885, 0.32, 1.05);
+  transition: left 1s cubic-bezier(0.175, 0.885, 0.32, 1.05);
+}
+
+a {
+  text-decoration: none;
+  color: #233142;
+  text-align: center;
+}
+
+a:hover{
+  color: #455D7A;
+}
+
+
+
+.anchor-clear {
+  display: block;
+  height: 50px;
+  margin-top: -50px;
+  visibility: hidden;
+}
+
+
+.home-img {
+  margin: 80px auto 40px 30vw; /*fallback for no calc support*/
+  margin: 80px calc(50% - 75px) 40px calc(50% - 75px);  /*depending on header height*/
+  width: 150px;
+  border-radius: 60%;
+}
+
+.home-links-container {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  max-width: 960px;  /* compatibility large screen fallback */
+  margin: auto;
+}
+.home-links {
+  display: inline;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-radius: 1em;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+
+.blurb {
+  text-align: center;
+  font-size: 3em;
+  margin: 5vh 3vw 10vh 3vw;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.blurb p {
+    max-width: 800px;
+    margin: auto;
+    color: #E3E3E3;
+    opacity: .9;
+}
+
+.blurb #handle {
+  font-size: .7em;
+  color: #E3E3E3;
+  opacity: .9;
+}
+
+/* --------------- home END --------------- */
