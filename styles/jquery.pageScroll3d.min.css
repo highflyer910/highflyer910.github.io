@@ -27,7 +27,7 @@ body,html{
 }
 .s3d__navigation-item.active .s3d__navigation-link:after{
 	background:-webkit-radial-gradient(#3E588F,#203562);
-	background:radial-gradient(#3E588F,#203562);
+	background:#233142;
 }
 .s3d__navigation-link{
 	text-decoration:none;
