@@ -11,7 +11,7 @@ body,html{
 }
 .s3d__navigation{
 	position:absolute;
-	top:10%;
+	top:50%;
 	right:0;
 	z-index:100;
 	-webkit-transform:translateY(-50%);
