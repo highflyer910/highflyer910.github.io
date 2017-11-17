@@ -66,7 +66,7 @@ a {
 }
 
 a:hover{
-  color: #0d0b2d;
+  color: #0d0d30;
 }
 
 
@@ -117,12 +117,61 @@ a:hover{
     margin: auto;
     color: #CFE0F9;
     opacity: .9;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .blurb #handle {
-  font-size: .7em;
+  font-size: 24px;
   color: #CFE0F9;
   opacity: .9;
+  line-height: 40px;
+  padding-top: 1%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* --------------- home END --------------- */
+
+/* ---------------ABOUT -------------------------*/
+
+.about-me {
+  position: relative;
+  margin: 0 auto;
+  max-width: 700px;
+  font-size: 24px;
+  padding-top: 5%;
+  color:#CFE0F9;
+  opacity: .9;
+  width: 700px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+span{
+  color: white;
+  font-style: italic;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+/*about link button*/
+.about-background-container {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.about-background-link {
+  font-size: 24px;
+  font-weight: 700;
+  color: #CFE0F9;
+  padding: 10px 20px;
+  border: 1px solid #CFE0F9;
+  border-radius: 5px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.about-background-link:hover {
+  color: #CFE0F9;
+  border-radius: 10px;
+  border: 3px solid #CFE0F9;
+}
