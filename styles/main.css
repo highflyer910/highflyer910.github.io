@@ -7,7 +7,6 @@
 *:before, *:after { box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -117,16 +116,17 @@ a:hover{
     margin: auto;
     color: #CFE0F9;
     opacity: .9;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', Serif;
+    font-size: 46px;
 }
 
 .blurb #handle {
-  font-size: 24px;
   color: #CFE0F9;
   opacity: .9;
-  line-height: 40px;
+  line-height: 1.1;
   padding-top: 1%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Muli', Sans-Serif;
+  font-size: 24px;
 }
 
 /* --------------- home END --------------- */
@@ -142,7 +142,7 @@ a:hover{
   color:#CFE0F9;
   opacity: .9;
   width: 700px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Muli', Sans-Serif;
 }
 
 span{
