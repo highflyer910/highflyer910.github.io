@@ -176,3 +176,27 @@ span{
   border-radius: 10px;
   border: 3px solid #CFE0F9;
 }
+ /*----------------PROJECTS -------------*/
+
+.projects{
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding-top: 10%;
+}
+
+
+ .first, 
+ .second, 
+ .third, 
+ .forth {
+  width: 250px;
+  height: 150px;
+  border: 1px solid #CFE0F9;
+  border-radius: 15px;
+  margin: 2%;
+  flex:1;
+  display:flex;
+  flex-wrap:wrap;
+ }
