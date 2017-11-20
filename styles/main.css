@@ -73,7 +73,7 @@ a:hover{
 .anchor-clear {
   display: block;
   height: 50px;
-  margin-top: -30px;
+  margin-top: -10px;
   visibility: hidden;
 }
 
@@ -138,7 +138,7 @@ a:hover{
   margin: 0 auto;
   max-width: 700px;
   font-size: 24px;
-  padding-top: 5%;
+  padding-top: 8%;
   color:#CFE0F9;
   opacity: .9;
   width: 700px;
@@ -188,14 +188,12 @@ span{
   max-width: 800px;
   margin: 0 auto;
   align-items: center;
-  padding-top: 10%;
+  padding-top: 12%;
 }
 
 
 .flex-grid-item {
   flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 30%;
   flex-basis: 200px;
   display: flex;
   align-items: center;
