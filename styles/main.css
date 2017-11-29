@@ -26,7 +26,7 @@ html, body {
 }
 
 h1 { 
-  font-size: 2em; 
+  font-size: 24px; 
 }
 
 .s3d__side {
@@ -37,11 +37,11 @@ h1 {
 
 .s3d__side.active h1 { left: -1%; }
 
-.s3d__side:nth-child(1) {  background: linear-gradient(to top, #43c6ac, #191654); }
+.s3d__side:nth-child(1) {  background: linear-gradient(to bottom, #43c6ac, #191654); }
 
-.s3d__side:nth-child(2) {  background: linear-gradient(to bottom, #43c6ac, #191654); }
+.s3d__side:nth-child(2) {  background: linear-gradient(to top, #43c6ac, #191654); }
 
-.s3d__side:nth-child(3) {  background: linear-gradient(to top, #43c6ac, #191654); }
+.s3d__side:nth-child(3) {  background: linear-gradient(to bottom, #43c6ac, #191654); }
 
 .s3d__side h1 {
   display: inline-block;
@@ -68,15 +68,12 @@ a:hover{
   color: #0d0d30;
 }
 
-
-
 .anchor-clear {
   display: block;
   height: 50px;
   margin-top: -10px;
   visibility: hidden;
 }
-
 
 .home-img {
   margin: 80px auto 40px 30vw; /*fallback for no calc support*/
@@ -105,7 +102,7 @@ a:hover{
 
 .blurb {
   text-align: center;
-  font-size: 3em;
+  font-size: 18px;
   margin: 5vh 3vw 10vh 3vw;
   -webkit-transition: .4s;
   transition: .4s;
@@ -116,11 +113,11 @@ a:hover{
     margin: auto;
     color: #CFE0F9;
     opacity: .9;
-    font-family: 'Merriweather', Serif;
-    font-size: 46px;
+    font-family: 'Muli', Sans-Serif;
+    font-size: 44px;
 }
 
-.blurb #handle {
+#handle {
   color: #CFE0F9;
   opacity: .9;
   line-height: 1.1;
@@ -191,6 +188,13 @@ span{
   padding-top: 12%;
 }
 
+.flex-grid-item:hover{
+   position: relative;
+    top: -3px;
+    left: -3px;
+    box-shadow: 5px 5px 5px #191654;
+}
+
 
 .flex-grid-item {
   flex-grow: 1;
@@ -210,7 +214,7 @@ span{
  .sixth {
   height: 150px;
   border: 1px solid #CFE0F9;
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 2%;
  }
 
@@ -219,8 +223,6 @@ span{
 .flex-grid-item:nth-child(3)  {background-color: #7FDBFF;}
 .flex-grid-item:nth-child(4)  {background-color: #39CCCC;}
 .flex-grid-item:nth-child(5)  {background-color: #3D9970;}
-.flex-grid-item:nth-child(6)  {background-color: #2ECC40;}
-
-
+.flex-grid-item:nth-child(6)  {background-color: #001f3f;}
 
 
