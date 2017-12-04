@@ -192,7 +192,8 @@ span{
    position: relative;
     top: -3px;
     left: -3px;
-    box-shadow: 5px 5px 5px #191654;
+    box-shadow: .5px .5px .5px #191654;
+    
 }
 
 
@@ -202,7 +203,8 @@ span{
   display: flex;
   align-items: center;
   justify-content: center;
-
+  box-shadow: 4px 4px 4px #191654;
+  cursor: pointer;
 }
 
 
