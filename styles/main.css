@@ -104,17 +104,6 @@ a:hover{
   text-align: center;
   font-size: 18px;
   margin: 5vh 3vw 10vh 3vw;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.blurb p {
-    max-width: 800px;
-    margin: auto;
-    color: #CFE0F9;
-    opacity: .9;
-    font-family: 'Muli', Sans-Serif;
-    font-size: 44px;
 }
 
 #handle {
@@ -126,6 +115,38 @@ a:hover{
   font-size: 24px;
 }
 
+/*-------------glitch text---------------*/
+
+.glitch{
+    max-width: 800px;
+    margin: auto;
+    color: #CFE0F9;
+    opacity: .9;
+    font-family: 'Muli', Sans-Serif;
+    font-size: 44px;
+    cursor: pointer;
+}
+
+.glitch:hover{
+   animation: glitch 0.6s infinite;
+}
+
+@keyframes glitch{
+  from{
+    text-shadow: 0 0px 0px white;
+  }
+  20%
+    {text-shadow: 2px -2px 0px #870916;}
+  40%
+    {text-shadow: -2px 2px 0px #40BBA7;}
+  60%
+    {text-shadow: 2px 2px 0px #191654;}
+  80%
+    {text-shadow: -2px -2px 0px #40BBA7;}
+  to
+    {text-shadow: 0px 0px 0px white;}
+  }
+
 /* --------------- home END --------------- */
 
 /* ---------------ABOUT -------------------------*/
@@ -133,13 +154,15 @@ a:hover{
 .about-me {
   position: relative;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 800px;
   font-size: 24px;
-  padding-top: 8%;
+  padding: 4%;
   color:#CFE0F9;
   opacity: .9;
-  width: 700px;
+  width: 800px;
   font-family: 'Muli', Sans-Serif;
+  border: 1px solid #CFE0F9;
+  border-radius: 5px;
 }
 
 span{
