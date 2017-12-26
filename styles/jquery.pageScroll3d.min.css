@@ -23,7 +23,7 @@ body,html{
 	margin-bottom:5px;
 }
 .s3d__navigation-item.active .s3d__navigation-link{
-	color:white;
+	color:#c8dff7;
 	right:-20px;
 	opacity:1;
 }
@@ -43,7 +43,7 @@ body,html{
 	color:#c8dff7;
 	position:relative;
 	right:-35px;
-	opacity:.9;
+	opacity:.6;
 	-webkit-transition:all .5s cubic-bezier(.175,.885,.32,2.4);
 	transition:all .5s cubic-bezier(.175,.885,.32,2.4);
 }

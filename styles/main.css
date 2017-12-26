@@ -1,11 +1,12 @@
-
-
 * {
   margin: 0;
-  padding: 0;  box-sizing: border-box;
+  padding: 0;  
+  box-sizing: border-box;
 }
 
-*:before, *:after { box-sizing: border-box; }
+*:before, *:after { 
+  box-sizing: border-box;
+}
 
 html {
   -webkit-text-size-adjust: 100%;
@@ -16,10 +17,6 @@ section, summary {
  display: block;
 }
 
-mark {
-  color: white;
-  background: #52524E;
-}
 
 html, body {
   background: #2c3e50;
@@ -28,6 +25,9 @@ html, body {
 
 h1 { 
   font-size: 24px; 
+  background: #2c3e50;
+  color: #212f3d;
+  opacity: .8;
 }
 
 .s3d__side {
@@ -161,7 +161,7 @@ a:hover{
   height: 400px;
   width: 800px;
   font-family: 'Muli', Sans-Serif;
-  border: 1px solid #c8dff7;
+  border: 2px solid #c8dff7;
   border-radius: 5px;
 }
 
