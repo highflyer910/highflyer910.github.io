@@ -126,11 +126,9 @@ a:hover{
     font-family: 'Muli', Sans-Serif;
     font-size: 44px;
     cursor: pointer;
+     animation: glitch 0.6s infinite;
 }
 
-.glitch:hover{
-   animation: glitch 0.6s infinite;
-}
 
 @keyframes glitch{
   from{
@@ -251,5 +249,3 @@ span{
 .flex-grid-item:nth-child(4)  {background-color: ;}
 .flex-grid-item:nth-child(5)  {background-color: ;}
 .flex-grid-item:nth-child(6)  {background-color: ;}
-
-
