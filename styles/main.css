@@ -22,7 +22,7 @@ mark {
 }
 
 html, body {
-  background: #191654;
+  background: #2c3e50;
   font: 100% Helvetica, sans-serif;
 }
 
@@ -38,11 +38,11 @@ h1 {
 
 .s3d__side.active h1 { left: -1%; }
 
-.s3d__side:nth-child(1) {  background: linear-gradient(to top, #43c6ac, #191654); }
+.s3d__side:nth-child(1) {  background: linear-gradient(to bottom, #fd746c, #2c3e50); }
 
-.s3d__side:nth-child(2) {  background: linear-gradient(to bottom, #43c6ac, #191654); }
+.s3d__side:nth-child(2) {  background: linear-gradient(to top, #2c3e50, #fd746c); }
 
-.s3d__side:nth-child(3) {  background: linear-gradient(to top, #43c6ac, #191654); }
+.s3d__side:nth-child(3) {  background: linear-gradient(to bottom, #fd746c, #2c3e50); }
 
 .s3d__side h1 {
   display: inline-block;
@@ -52,7 +52,7 @@ h1 {
   padding: .2% 1.5% .2% 2.5%;
   background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
   background: linear-gradient(-90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
-  color: #CFE0F9;
+  color: #c8dff7;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
   border-radius: 1px;
   -webkit-transition: left 1s cubic-bezier(0.175, 0.885, 0.32, 1.05);
@@ -61,12 +61,12 @@ h1 {
 
 a {
   text-decoration: none;
-  color: #191654;
+  color: #212f3d;
   text-align: center;
 }
 
 a:hover{
-  color: #0d0d30;
+  color: #141d26;
 }
 
 .anchor-clear {
@@ -158,12 +158,12 @@ a:hover{
   max-width: 800px;
   font-size: 24px;
   padding: 4% 2%;
-  color:#CFE0F9;
+  color:#c8dff7;
   opacity: .9;
   height: 400px;
   width: 800px;
   font-family: 'Muli', Sans-Serif;
-  border: 1px solid #CFE0F9;
+  border: 1px solid #c8dff7;
   border-radius: 5px;
 }
 
@@ -187,16 +187,16 @@ span{
   font-weight: 700;
   color: #CFE0F9;
   padding: 8px 20px;
-  border: 1px solid #CFE0F9;
+  border: 1px solid #c8dff7;
   border-radius: 5px;
   -webkit-transition: .3s;
   transition: .3s;
 }
 
 .about-background-link:hover {
-  color: #CFE0F9;
+  color: #c8dff7;
   border-radius: 10px;
-  border: 3px solid #CFE0F9;
+  border: 3px solid #c8dff7;
 }
  /*----------------PROJECTS -------------*/
 
@@ -240,7 +240,7 @@ span{
  .fifth,
  .sixth {
   height: 150px;
-  border: 1px solid #CFE0F9;
+  border: 1px solid #c8dff7;
   border-radius: 10px;
   margin: 2%;
  }
