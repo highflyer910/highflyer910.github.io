@@ -112,7 +112,7 @@ a:hover{
   opacity: .9;
   line-height: 1.1;
   padding-top: 1%;
-  font-family: 'Muli', Sans-Serif;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 24px;
 }
 
@@ -123,9 +123,10 @@ a:hover{
     margin: auto;
     color: #CFE0F9;
     opacity: .9;
-    font-family: 'Muli', Sans-Serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 44px;
     cursor: pointer;
+    text-transform: uppercase;
      animation: glitch 0.6s infinite;
 }
 
@@ -154,13 +155,13 @@ a:hover{
   position: relative;
   margin: 0 auto;
   max-width: 800px;
-  font-size: 24px;
+  font-size: 20px;
   padding: 4% 2%;
   color:#c8dff7;
   opacity: .9;
   height: 400px;
   width: 800px;
-  font-family: 'Muli', Sans-Serif;
+  font-family: 'Titillium Web', sans-serif;
   border: 2px solid #c8dff7;
   border-radius: 5px;
 }
