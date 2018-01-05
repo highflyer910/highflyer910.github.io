@@ -231,6 +231,16 @@ span{
   cursor: pointer;
 }
 
+.flex-grid-item a{
+   color: #d8ebff;
+   font-family: 'Titillium Web', sans-serif;
+   font-size: 20px;
+}
+
+.flex-grid-item a:hover{
+  font-weight: bold;
+}
+
 
  .first, 
  .second, 
