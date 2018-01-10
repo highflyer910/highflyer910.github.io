@@ -23,7 +23,7 @@ body,html{
 	margin-bottom:5px;
 }
 .s3d__navigation-item.active .s3d__navigation-link{
-	color:#c8dff7;
+	color:#e0ecff;
 	right:-20px;
 	opacity:1;
 }
@@ -40,7 +40,7 @@ body,html{
 	background:-webkit-linear-gradient(0deg,rgba(0,0,0,.7),rgba(0,0,0,.6));
 	background:linear-gradient(90deg,rgba(0,0,0,.7),rgba(0,0,0,.6));
 	font-size:16px;
-	color:#c8dff7;
+	color:#e0ecff;
 	position:relative;
 	right:-35px;
 	opacity:.6;
@@ -56,7 +56,7 @@ body,html{
 .s3d__navigation-link:before{
 	width:16px;
 	height:16px;
-	background:#c8dff7;
+	background:#e0ecff;
 	top:4px;
 	left:4px;
 }
@@ -72,7 +72,7 @@ body,html{
 .s3d__navigation-link:hover{
 	right:-25px;
 	opacity:1;
-	color: #c8dff7;
+	color: #e0ecff;
 }
 .s3d__content{
 	height:100%;

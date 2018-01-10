@@ -26,7 +26,7 @@ html, body {
 h1 { 
   font-size: 24px; 
   background: #2c3e50;
-  color: #212f3d;
+  color: #e0ecff;
   opacity: .8;
 }
 
@@ -52,7 +52,7 @@ h1 {
   padding: .2% 1.5% .2% 2.5%;
   background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
   background: linear-gradient(-90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
-  color: #c8dff7;
+  color: #e0ecff;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
   border-radius: 1px;
   -webkit-transition: left 1s cubic-bezier(0.175, 0.885, 0.32, 1.05);
@@ -107,7 +107,7 @@ a:hover{
 }
 
 #handle {
-  color: #d8ebff;
+  color: #e0ecff;
   opacity: .9;
   line-height: 1.1;
   padding-top: 1%;
@@ -120,7 +120,7 @@ a:hover{
 .glitch{
     max-width: 800px;
     margin: auto;
-    color: #CFE0F9;
+    color: #e0ecff;
     opacity: .9;
     font-family: 'Titillium Web', sans-serif;
     font-size: 44px;
@@ -155,17 +155,17 @@ a:hover{
   max-width: 800px;
   font-size: 20px;
   padding: 4% 2%;
-  color:#d8ebff;
+  color:#e0ecff;
   opacity: .9;
   height: 400px;
   width: 800px;
   font-family: 'Titillium Web', sans-serif;
-  border: 2px solid #d8ebff;
+  border: 2px solid #e0ecff;
   border-radius: 5px;
 }
 
 span{
-  color: white;
+  color: #e0ecff;
   font-size: 18px;
   cursor: pointer;
   padding: 35px;
@@ -182,18 +182,18 @@ span{
 .about-background-link {
   font-size: 24px;
   font-weight: 700;
-  color: #d8ebff;
+  color: #e0ecff;
   padding: 8px 20px;
-  border: 1px solid #d8ebff;
-  border-radius: 5px;
+  border: 1.5px solid #e0ecff;
+  border-radius: 8px;
   -webkit-transition: .3s;
   transition: .3s;
 }
 
 .about-background-link:hover {
-  color: #d8ebff;
+  color: #e0ecff;
   border-radius: 10px;
-  border: 3px solid #d8ebff;
+  border: 3px solid #e0ecff;
 }
  /*----------------PROJECTS -------------*/
 
@@ -230,7 +230,7 @@ span{
 }
 
 .flex-grid-item a{
-   color: #d8ebff;
+   color: #e0ecff;
    font-family: 'Titillium Web', sans-serif;
    font-size: 20px;
 }
@@ -247,7 +247,7 @@ span{
  .fifth,
  .sixth {
   height: 150px;
-  border: 1px solid #d8ebff;
+  border: 2px solid #e0ecff;
   border-radius: 10px;
   margin: 2%;
  }
