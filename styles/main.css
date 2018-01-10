@@ -103,7 +103,6 @@ a:hover{
 
 .blurb {
   text-align: center;
-  font-size: 18px;
   margin: 5vh 3vw 10vh 3vw;
 }
 
@@ -261,7 +260,23 @@ span{
 .flex-grid-item:nth-child(6)  {background-color: ;}
 
 
+@media screen and (max-width: 800px){
+    .about-me{
+      width: 600px;
+    } 
 
+    .about-background-link{
+      padding: 4px 18px;
+    }  
+
+    #handle{
+      font-size: 22px;
+    }
+
+    .glitch{
+      font-size: 42px;
+    }
+}
 
 
 
