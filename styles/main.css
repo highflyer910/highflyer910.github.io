@@ -126,7 +126,6 @@ a:hover{
     font-family: 'Titillium Web', sans-serif;
     font-size: 44px;
     cursor: pointer;
-    text-transform: uppercase;
      animation: glitch 0.6s infinite;
 }
 
@@ -266,79 +265,4 @@ span{
 
 
 
-.pd{
-    position: relative;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-}
 
-
-.rotateCubeTopOut {
-  transform-origin: 50% 100%;
-  animation: rotateCubeTopOut .6s;
-}
-
-.rotateCubeTopIn {
-  transform-origin: 50% 0%;
-  animation: rotateCubeTopIn .6s;
-}
-
-.rotateCubeBottomOut {
-  transform-origin: 50% 0%;
-  animation: rotateCubeBottomOut .6s both ease;
-}
-
-.rotateCubeBottomIn {
-  transform-origin: 50% 100%;
-  animation: rotateCubeBottomIn .6s both ease;
-}
-
-@keyframes rotateCubeTopOut {
-  50% {
-    animation-timing-function: ease-in-out;
-      transform: translateY(-50%) translateZ(-200px) rotateX(45deg);
-  }
-
-  100% {
-    transform: translateY(-100%) rotateX(90deg); 
-  }
-  
-}
-
-
-@keyframes rotateCubeTopIn {
-  0% {
-    transform: translateY(100%) rotateX(-90deg);
-  }
-
-  50% {
-
-    transform: translateY(50%) translateZ(-200px) rotateX(-45deg);
-  }
-}
-
-
-@keyframes rotateCubeBottomOut {
-  50% {
- 
-            transform: translateY(50%) translateZ(-200px) rotateX(-45deg);
-  }
-
-  100% {
-       animation-timing-function: ease-in-out;
-            transform: translateY(100%) rotateX(-90deg);
-  }
-}
-
-@keyframes rotateCubeBottomIn {
-  0% {
-
-            transform: translateY(-100%) rotateX(90deg);
-  }
-
-  50% {
-     animation-timing-function: ease-in-out;
-            transform: translateY(-50%) translateZ(-200px) rotateX(45deg);
-  }
-}
