@@ -275,8 +275,10 @@ span{
 }
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 600px) {
   .about-me{
-    width: 300px;
+    width: 340px;
+    font-size: 16px;
   }
+
 }
