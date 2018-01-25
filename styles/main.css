@@ -19,7 +19,7 @@ section, summary {
 
 
 html, body {
-  background: #2c3e50;
+  background: #484872;
   font: 100% Helvetica, sans-serif;
 }
 
@@ -38,11 +38,11 @@ h1 {
 
 .s3d__side.active h1 { left: -1%; }
 
-.s3d__side:nth-child(1) {  background: linear-gradient(to bottom, #fd746c, #2c3e50); }
+.s3d__side:nth-child(1) {  background: linear-gradient(to bottom, #ff625b, #484872); }
 
-.s3d__side:nth-child(2) {  background: linear-gradient(to top, #2c3e50, #fd746c); }
+.s3d__side:nth-child(2) {  background: linear-gradient(to top, #484872, #ff625b); }
 
-.s3d__side:nth-child(3) {  background: linear-gradient(to bottom, #fd746c, #2c3e50); }
+.s3d__side:nth-child(3) {  background: linear-gradient(to bottom, #ff625b, #484872); }
 
 .s3d__side h1 {
   display: inline-block;
