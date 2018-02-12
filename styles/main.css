@@ -293,4 +293,12 @@ span{
   .about-me{
     width: 300px;
   }
+  .first, 
+ .second, 
+ .third, 
+ .forth,
+ .fifth,
+ .sixth{
+  height: 70px;
+ }
 }
