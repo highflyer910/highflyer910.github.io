@@ -38,11 +38,11 @@ h1 {
 
 .s3d__side.active h1 { left: -1%; }
 
-.s3d__side:nth-child(1) {  background: linear-gradient(to bottom,   #F15672, #352D67); }
+.s3d__side:nth-child(1) {  background: linear-gradient(to bottom,   #e05972, #352D67); }
 
-.s3d__side:nth-child(2) {  background: linear-gradient(to top, #352D67, #F15672); }
+.s3d__side:nth-child(2) {  background: linear-gradient(to top, #352D67, #e05972); }
 
-.s3d__side:nth-child(3) {  background: linear-gradient(to bottom, #F15672, #352D67); }
+.s3d__side:nth-child(3) {  background: linear-gradient(to bottom, #e05972, #352D67); }
 
 .s3d__side h1 {
   display: inline-block;
@@ -150,7 +150,6 @@ a:hover{
 /* ---------------ABOUT -------------------------*/
 
 .about-me {
-  background-color: #483168;
   position: relative;
   margin: 1.5% auto;
   max-width: 800px;
@@ -252,12 +251,12 @@ span{
   margin: 2%;
  }
 
-.flex-grid-item:nth-child(1)  {background-color: #483168;}
-.flex-grid-item:nth-child(2)  {background-color: #483168;}
-.flex-grid-item:nth-child(3)  {background-color: #483168;}
-.flex-grid-item:nth-child(4)  {background-color: #483168;}
-.flex-grid-item:nth-child(5)  {background-color: #483168;}
-.flex-grid-item:nth-child(6)  {background-color: #483168;}
+.flex-grid-item:nth-child(1)  {background-color: ;}
+.flex-grid-item:nth-child(2)  {background-color: ;}
+.flex-grid-item:nth-child(3)  {background-color: ;}
+.flex-grid-item:nth-child(4)  {background-color: ;}
+.flex-grid-item:nth-child(5)  {background-color: ;}
+.flex-grid-item:nth-child(6)  {background-color: ;}
 
 
 @media screen and (max-width: 800px){
