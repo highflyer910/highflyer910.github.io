@@ -152,7 +152,7 @@ a:hover{
 .about-me {
   background-color: #483168;
   position: relative;
-  margin: 0 auto;
+  margin: 1.5% auto;
   max-width: 800px;
   font-size: 20px;
   padding: 4% 2%;
@@ -177,7 +177,7 @@ span{
 /*about link button*/
 .about-background-container {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .about-background-link {
