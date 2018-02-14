@@ -38,11 +38,11 @@ h1 {
 
 .s3d__side.active h1 { left: -1%; }
 
-.s3d__side:nth-child(1) {  background: linear-gradient(to bottom, #F15672, #414475); }
+.s3d__side:nth-child(1) {  background: linear-gradient(to bottom,   #F15672,   #352D67); }
 
-.s3d__side:nth-child(2) {  background: linear-gradient(to top, #414475, #F15672); }
+.s3d__side:nth-child(2) {  background: linear-gradient(to top, #352D67, #F15672); }
 
-.s3d__side:nth-child(3) {  background: linear-gradient(to bottom, #F15672, #414475); }
+.s3d__side:nth-child(3) {  background: linear-gradient(to bottom, #F15672, #352D67); }
 
 .s3d__side h1 {
   display: inline-block;
