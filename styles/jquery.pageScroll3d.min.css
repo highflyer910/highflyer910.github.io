@@ -28,7 +28,7 @@ body,html{
 	opacity:1;
 }
 .s3d__navigation-item.active .s3d__navigation-link:after{
-	background:#0F1359;
+	background:#1C1751;
 }
 .s3d__navigation-link{
 	text-decoration:none;
