@@ -38,7 +38,7 @@ h1 {
 
 .s3d__side.active h1 { left: -1%; }
 
-.s3d__side:nth-child(1) {  background: linear-gradient(to bottom,   #e05972, #352D67); }
+.s3d__side:nth-child(1) {  background: linear-gradient(to bottom,   #c7637e, #201e5f); }
 
 .s3d__side:nth-child(2) {  background: linear-gradient(to top, #352D67, #e05972); }
 
