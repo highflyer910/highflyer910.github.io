@@ -19,7 +19,7 @@ section, summary {
 
 
 html, body {
-  background: #1C1751;
+  background: #19234c;
   font: 100% Helvetica, sans-serif;
 }
 
@@ -38,11 +38,11 @@ h1 {
 
 .s3d__side.active h1 { left: -1%; }
 
-.s3d__side:nth-child(1) {  background: linear-gradient(to bottom, #FB8587, #1C1751); }
+.s3d__side:nth-child(1) {  background: linear-gradient(to bottom, #fb8587, #19234c); }
 
-.s3d__side:nth-child(2) {  background: linear-gradient(to top, #1C1751, #FB8587); }
+.s3d__side:nth-child(2) {  background: linear-gradient(to top, #19234c, #FB8587); }
 
-.s3d__side:nth-child(3) {  background: linear-gradient(to bottom, #FB8587, #1C1751); }
+.s3d__side:nth-child(3) {  background: linear-gradient(to bottom, #fb8587, #19234c); }
 
 .s3d__side h1 {
   display: inline-block;
@@ -239,12 +239,7 @@ span{
 }
 
 
- .first, 
- .second, 
- .third, 
- .forth,
- .fifth,
- .sixth {
+ .grid {
   height: 150px;
   border: 2px solid #e0ecff;
   border-radius: 10px;
