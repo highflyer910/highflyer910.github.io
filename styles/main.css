@@ -38,11 +38,11 @@ h1 {
 
 .s3d__side.active h1 { left: -1%; }
 
-.s3d__side:nth-child(1) {  background: linear-gradient(to bottom, #fb8587, #19234c); }
+.s3d__side:nth-child(1) {  background: linear-gradient(to bottom, #fc6c86, #19234c); }
 
-.s3d__side:nth-child(2) {  background: linear-gradient(to top, #19234c, #FB8587); }
+.s3d__side:nth-child(2) {  background: linear-gradient(to top, #19234c, #fc6c86); }
 
-.s3d__side:nth-child(3) {  background: linear-gradient(to bottom, #fb8587, #19234c); }
+.s3d__side:nth-child(3) {  background: linear-gradient(to bottom, #fc6c86, #19234c); }
 
 .s3d__side h1 {
   display: inline-block;
