@@ -164,6 +164,16 @@ a:hover{
   border-radius: 5px;
 }
 
+.about-me a{
+  font-family: 'Titillium Web';
+  font-style: italic;
+  color:#e0ecff;
+}
+
+.about-me a:hover{
+  font-weight: bold;
+}
+
 span{
   color: #e0ecff;
   font-size: 18px;
@@ -172,6 +182,9 @@ span{
   font-style: italic;
 }
 
+span:hover{
+  font-weight: bold;
+}
 
 /*about link button*/
 .about-background-container {
