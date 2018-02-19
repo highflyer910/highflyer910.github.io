@@ -272,11 +272,10 @@ span:hover{
     width: 580px;
     margin: 1% auto;
     font-size: 19px;
-    padding: 8% 2%;
   }
 
   .about-background-link{
-      padding: 4px 18px;
+      padding: 8px 18px;
     } 
 
      #handle{
