@@ -151,7 +151,7 @@ a:hover{
 
 .about-me {
   position: relative;
-  margin: 1.5% auto;
+  margin: 1.7% auto;
   max-width: 800px;
   font-size: 20px;
   padding: 4% 2%;
@@ -267,64 +267,45 @@ span:hover{
 .flex-grid-item:nth-child(6)  {background-color: ;}
 
 
-@media screen and (max-width: 800px){
-    .about-me{
-      width: 600px;
+@media only screen and (max-width: 768px) and (min-width: 450px) {
+  .about-me{
+    width: 580px;
+    margin: 1% auto;
+    font-size: 19px;
+  }
+
+  .about-background-link{
+      padding: 4px 18px;
     } 
 
-    .about-background-link{
-      padding: 4px 18px;
-    }  
-
-    #handle{
+     #handle{
       font-size: 22px;
     }
 
-    .first, 
- .second, 
- .third, 
- .forth,
- .fifth,
- .sixth{
-  height: 120px;
- }
-
-}
-
-
-@media screen and (max-width: 600px) {
-  .about-me{
-    width: 340px;
-    font-size: 16px;
-  }
-
-  .first, 
- .second, 
- .third, 
- .forth,
- .fifth,
- .sixth{
+ .grid{
   height: 100px;
  }
 
 }
 
-@media screen and (max-width: 400px){
+@media only screen and (max-width: 400px){
   .glitch{
-    font-size: 20px;
+    font-size: 22px;
   }
   #handle{
-    font-size: 16px;
+    font-size: 18px;
   }
+   .about-background-link{
+      padding: 1px 18px;
+    } 
   .about-me{
     width: 300px;
+    margin: 0 auto;
+    height: 430px;
+    font-size: 15.3px;
+    padding: 2% 2%;
   }
-  .first, 
- .second, 
- .third, 
- .forth,
- .fifth,
- .sixth{
+  .grid{
   height: 70px;
  }
 }
