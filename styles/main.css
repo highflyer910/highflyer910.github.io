@@ -267,24 +267,24 @@ span:hover{
 .flex-grid-item:nth-child(6)  {background-color: ;}
 
 
-@media only screen and (max-width: 768px) and (min-width: 450px) {
+@media only screen and (max-width: 768px) and (min-width: 600px) {
   .about-me{
     width: 580px;
     margin: 1% auto;
     font-size: 19px;
-  }
+    }
 
   .about-background-link{
-      padding: 8px 18px;
+      padding: 4px 18px;
     } 
 
      #handle{
       font-size: 22px;
     }
 
- .grid{
-  height: 100px;
- }
+  .grid{
+   height: 100px;
+  }
 
 }
 
@@ -297,7 +297,7 @@ span:hover{
   }
    .about-background-link{
       padding: 1px 18px;
-    } 
+  } 
   .about-me{
     width: 300px;
     margin: 0 auto;
