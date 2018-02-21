@@ -267,6 +267,30 @@ span:hover{
 .flex-grid-item:nth-child(6)  {background-color: ;}
 
 
+@media only screen and (max-width: 400px){
+  .glitch{
+    font-size: 22px;
+  }
+  #handle{
+    font-size: 18px;
+  }
+   .about-background-link{
+      padding: 1px 18px;
+  } 
+  .about-me{
+    width: 300px;
+    margin: 0 auto;
+    height: 430px;
+    font-size: 15.3px;
+    padding: 2% 2%;
+  }
+  .grid{
+  height: 70px;
+ }
+
+}
+
+
 @media only screen and (max-width: 768px) and (min-width: 600px) {
   .about-me{
     width: 580px;
@@ -288,24 +312,3 @@ span:hover{
 
 }
 
-@media only screen and (max-width: 400px){
-  .glitch{
-    font-size: 22px;
-  }
-  #handle{
-    font-size: 18px;
-  }
-   .about-background-link{
-      padding: 1px 18px;
-  } 
-  .about-me{
-    width: 300px;
-    margin: 0 auto;
-    height: 430px;
-    font-size: 15.3px;
-    padding: 2% 2%;
-  }
-  .grid{
-  height: 70px;
- }
-}
