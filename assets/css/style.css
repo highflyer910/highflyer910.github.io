@@ -121,7 +121,7 @@ body.page-split {
  @media(max-width: 400px) {
         .fs-intro {
           padding: 20px;
-          font-size: 54px;
+          font-size: 44px;
         }
       }    
 
@@ -200,9 +200,15 @@ body.page-split {
   visibility: hidden;
 }
 
+@media(max-width: 1200px){
+  .anchor-clear{
+  margin-top: -1px;
+}
+}
+
 @media (max-width: 400px){
   .anchor-clear {
-    margin-top: -15px;
+    margin-top: -25px;
   }
 }
 
