@@ -200,15 +200,22 @@ body.page-split {
   visibility: hidden;
 }
 
+
 @media(max-width: 1200px){
   .anchor-clear{
   margin-top: -1px;
 }
 }
 
+@media(max-width: 800px){
+  .anchor-clear{
+  margin-top: -2px;
+}
+}
+
 @media (max-width: 400px){
   .anchor-clear {
-    margin-top: -25px;
+    margin-top: -45px;
   }
 }
 
