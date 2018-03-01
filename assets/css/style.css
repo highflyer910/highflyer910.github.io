@@ -103,12 +103,27 @@ body.page-split {
           }
            }
 
+       @media(max-width: 400px) {
+        .fs-split .split-content .split-center {
+          padding: 20px;
+        }
+       }    
+
+
+
 .split-intro {
   font-weight: 600;
   font-size: 64px;
   line-height: 80px;
   letter-spacing: -2px; 
 }
+
+ @media(max-width: 400px) {
+        .fs-intro {
+          padding: 20px;
+          font-size: 54px;
+        }
+      }    
 
   .split-intro h1 {
     font-weight: 400;
@@ -139,6 +154,12 @@ body.page-split {
       padding: 20px 0; 
       }
        }
+
+  @media (max-width: 400px) {
+    .split-bio {
+      padding: 20px;
+    }
+  }
 
   .split-bio p {
     color: #848d96; 
@@ -177,6 +198,12 @@ body.page-split {
   height: 50px;
   margin-top: -4px;
   visibility: hidden;
+}
+
+@media (max-width: 400px){
+  .anchor-clear {
+    margin-top: -15px;
+  }
 }
 
 .home-img {
