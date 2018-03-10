@@ -252,7 +252,7 @@ body.page-split {
 }
 
 #handle {
-  color: var(--grey);
+  color: #ffd2d1;
   opacity: .9;
   line-height: 1.2;
   padding-top: 1%;
