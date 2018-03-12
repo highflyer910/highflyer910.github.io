@@ -10,7 +10,7 @@
   --blue: #061C30;
   --red: #CD4A45;
   --grey: #cccccc;
-  --asphalt: #848d96;
+  --asphalt: #bac6d3;
   --white: #fff;
   --darkblue: #212f3d;
   }
@@ -252,11 +252,12 @@ body.page-split {
 }
 
 #handle {
-  color: #ffd2d1;
+  color: #ffeded;
+  font-weight: bold;
   opacity: .9;
   line-height: 1.2;
   padding-top: 1%;
-  font-size: 24px;
+  font-size: 16pt;
 }
 
 a {
