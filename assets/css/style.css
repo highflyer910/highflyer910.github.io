@@ -18,7 +18,8 @@
 /* -- Content -- */
 
 html {
-  background-color: var(--blue); }
+  background-color: var(--blue); 
+}
 
 body.page-split {
   background-color: var(--blue);
@@ -135,6 +136,10 @@ body.page-split {
     color: #CD4A45; 
   }
 
+  .split-intro h1:hover{
+     transform: scaleY(-1);
+  }
+
   .split-intro .tagline {
     color: var(--grey); 
   }
@@ -180,7 +185,7 @@ body.page-split {
     } 
 
   .split-credit {
-    opacity: 0.4; 
+    opacity: 0.6; 
     padding-top: 50px;
   }
 
@@ -190,7 +195,7 @@ body.page-split {
   }
 
   .split-credit p a {
-      color: #848d96; 
+      color: var(--grey); 
    }
 
 .anchor-clear {
