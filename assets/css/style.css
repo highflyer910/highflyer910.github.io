@@ -255,7 +255,7 @@ body.page-split {
   color: #ffeded;
   font-weight: bold;
   opacity: .9;
-  line-height: 1.2;
+  line-height: 1.5;
   padding-top: 1%;
   font-size: 16pt;
 }
@@ -278,7 +278,7 @@ h3{
     margin-top: 20px;
     color: var(--grey);
     letter-spacing: 2px;
-    opacity: 0.8; 
+    opacity: 0.7; 
 }
 
 
@@ -321,7 +321,7 @@ h3{
 }
 
 .flex-grid-item a:hover{
-  font-weight: bold;
+  transform: scaleY(-1);
 }
 
 .info{
@@ -333,7 +333,7 @@ h3{
   line-height: 28px;
   font-size: 14px;
   color: var(--grey);
-   opacity: 0.5; 
+   opacity: 0.8; 
 }
 
 .info li:nth-child(3) a{
@@ -364,5 +364,5 @@ ul{
 }
 
 .social a:hover{
-  color: var(--asphalt);
+  color: var(--white);
 }
