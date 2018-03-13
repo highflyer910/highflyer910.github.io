@@ -136,9 +136,6 @@ body.page-split {
     color: #CD4A45; 
   }
 
-  .split-intro h1:hover{
-     transform: scaleY(-1);
-  }
 
   .split-intro .tagline {
     color: var(--grey); 
