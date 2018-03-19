@@ -369,6 +369,7 @@ h3{
   padding-right: 0.5vw;
   padding-bottom: 1vw;
   -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
   font-size: 22px;
 }
