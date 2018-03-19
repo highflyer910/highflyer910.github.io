@@ -244,6 +244,7 @@ body.page-split {
   padding-right: 1vw;
   border-radius: 1em;
   -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
 }
 
