@@ -294,14 +294,19 @@ h3{
 
 
 .flex-grid{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .projects {
   max-width: 800px;
   margin: 0 auto;
-  align-items: center;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
   padding: 10% 0 10% 0;
 }
 
@@ -310,11 +315,20 @@ h3{
 }
 
 .flex-grid-item {
-  flex-grow: 1;
-  flex-basis: 200px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   cursor: pointer;
 }
 
@@ -324,7 +338,9 @@ h3{
 }
 
 .flex-grid-item a:hover{
-  transform: scaleY(-1);
+   -webkit-transform: scaleY(-1);
+      -ms-transform: scaleY(-1);
+          transform: scaleY(-1);
 }
 
 .info{
