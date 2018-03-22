@@ -257,10 +257,11 @@ body.page-split {
 #handle {
   color: #ffeded;
   font-weight: bold;
+  letter-spacing: .7px;
   opacity: .9;
   line-height: 1.5;
   padding-top: 1%;
-  font-size: 16pt;
+  font-size: 15pt;
 }
 
 a {
