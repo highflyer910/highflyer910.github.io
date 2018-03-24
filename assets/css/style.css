@@ -60,7 +60,7 @@ body.page-split {
     box-shadow: 10px 10px 30px #020a11;
   }
 
-    @media (max-width: 800px) {
+    @media (max-width: 768px) {
       .fs-split .split-image {
         height: 100vh;
         width: 100%; 
@@ -72,9 +72,15 @@ body.page-split {
   margin: 4vh 3vw 10vh 3vw;
 }
 
-@media(max-width: 800px){
+@media(max-width: 768px){
   #blurb{
-    margin: 6vh 6vw 10vh 6vw;
+    margin: 8vh 6vw 10vh 6vw;
+  }
+}
+
+@media(max-width: 320px){
+  #blurb{
+    margin: 4vh 3vw 10vh 3vw;
   }
 }
 
