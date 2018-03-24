@@ -57,6 +57,7 @@ body.page-split {
     width: 50%;
     height: 100vh;
     background-color:  var(--red);
+    box-shadow: 10px 10px 30px #020a11;
   }
 
     @media (max-width: 800px) {
