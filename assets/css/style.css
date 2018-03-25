@@ -217,7 +217,7 @@ body.page-split {
 
   .split-credit {
     opacity: 0.6; 
-    padding-top: 50px;
+    padding-top: 60px;
   }
 
   .split-credit p {
@@ -227,6 +227,10 @@ body.page-split {
 
   .split-credit p a {
       color: var(--grey); 
+   }
+
+   .split-credit img{
+    color: var(--grey);
    }
 
 .anchor-clear {
