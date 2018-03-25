@@ -117,7 +117,7 @@ body.page-split {
 
     @media (max-width: 800px) {
       .fs-split .split-content {
-        width: 100%;
+        width: 50%;
         height: auto; 
         }
          }
@@ -140,7 +140,7 @@ body.page-split {
           }
            }
 
-       @media(max-width: 400px) {
+       @media(max-width: 320px) {
         .fs-split .split-content .split-center {
           padding: 20px;
         }
@@ -193,7 +193,7 @@ body.page-split {
       }
        }
 
-  @media (max-width: 400px) {
+  @media (max-width: 320px) {
     .split-bio {
       padding: 20px;
     }
@@ -253,7 +253,7 @@ body.page-split {
 }
 }
 
-@media (max-width: 400px){
+@media (max-width: 320px){
   .anchor-clear {
     margin-top: -45px;
   }
