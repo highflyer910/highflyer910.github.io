@@ -310,7 +310,7 @@ h3{
 
 .grid {
   height: 150px;
-  border: 2px solid var(--grey);
+  border: 3px solid var(--grey);
   border-radius: 9px;
   margin: 0.8%;
  }
