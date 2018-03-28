@@ -311,7 +311,7 @@ h3{
 .grid {
   height: 150px;
   border: 3px solid var(--grey);
-  border-radius: 9px;
+  border-radius: 5px;
   margin: 0.8%;
  }
 
@@ -390,11 +390,15 @@ h3{
    display: inline;
   padding-left: 0.5vw;
   padding-right: 0.5vw;
-  padding-bottom: 1vw;
   -webkit-transition: .2s ease;
   -o-transition: .2s ease;
   transition: .2s ease;
   font-size: 22px;
+}
+
+.info li:nth-child(5){
+  padding-top: 7px;
+  padding-left: 4px;
 }
 
 ul{
