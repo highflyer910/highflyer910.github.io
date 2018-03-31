@@ -311,7 +311,7 @@ h2{
 .grid {
   height: 150px;
   border: 3px solid var(--grey);
-  border-radius: 50% / 10%;
+  border-radius: 80% / 10%;
   margin: 0.8%;
  }
 
