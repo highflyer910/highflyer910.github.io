@@ -96,7 +96,7 @@ body.page-split p {
 
 @media(max-width: 320px){
     #handle{
-      font-size: 12pt;
+      font-size: 14pt;
       line-height: 2;
     }
 }
