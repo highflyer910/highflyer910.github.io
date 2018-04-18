@@ -89,7 +89,7 @@ body.page-split p {
   font-weight: bold;
   letter-spacing: .7px;
   opacity: .9;
-  line-height: 1.5;
+  line-height: 1.8;
   padding-top: 3%;
   font-size: 15pt;
 }
@@ -97,6 +97,7 @@ body.page-split p {
 @media(max-width: 320px){
     #handle{
       font-size: 12pt;
+      line-height: 2;
     }
 }
 
