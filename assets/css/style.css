@@ -177,6 +177,18 @@ body.page-split p {
     color: #e25751; 
   }
 
+  @media(max-width: 768px){
+    .split-intro h1{
+    margin-top: 40px;
+    }
+  }
+
+   @media(max-width: 320px){
+    .split-intro h1{
+    margin-top: 40px;
+    }
+  }
+
 
   .split-intro .tagline {
     color: var(--grey); 
