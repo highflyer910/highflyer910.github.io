@@ -19,6 +19,7 @@
 
 html {
   background-color: var(--blue); 
+  scroll-behavior: smooth;
 }
 
 body.page-split {
@@ -67,24 +68,24 @@ body.page-split p {
       } 
     }
 
-.blurb {
+.home-text {
   text-align: center;
   margin: 4vh 3vw 10vh 3vw;
 }
 
 @media(max-width: 768px){
-  #blurb{
+  .home-text{
     margin: 8vh 6vw 10vh 6vw;
   }
 }
 
 @media(max-width: 320px){
-  #blurb{
+  .home-text{
     margin: 4vh 3vw 10vh 3vw;
   }
 }
 
-#handle {
+#text {
   color: #fff2f2;
   font-weight: bold;
   letter-spacing: .7px;
@@ -95,13 +96,13 @@ body.page-split p {
 }
 
 @media(max-width: 320px){
-    #handle{
+    #text{
       font-size: 14pt;
       line-height: 2;
     }
 }
 
-#handle a{
+#text a{
   color: #fff2f2;
   cursor: pointer;
   
@@ -377,12 +378,13 @@ h2{
 .flex-grid-item a{
    color: var(--grey);
    font-size: 20px;
+   transition: all .2s;
 }
 
 .flex-grid-item a:hover{
-   -webkit-transform: scaleY(-1);
-      -ms-transform: scaleY(-1);
-          transform: scaleY(-1);
+   -webkit-transform: skewX(15deg);
+      -ms-transform: skewX(15deg);
+          transform: skewX(15deg);
 }
 
 .info{
