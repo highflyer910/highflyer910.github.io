@@ -228,7 +228,7 @@ body.page-split p {
     .split-bio a:hover {
       color: var(--red);
       transition-duration: 0.1s;
-      border-bottom: 1px dotted var(--red); 
+      border-bottom: 1px dotted var(--red);
     } 
 
   .split-credit {
@@ -305,7 +305,6 @@ body.page-split p {
   transition: .2s ease;
 }
 
-
 a {
   text-decoration: none;
   color: var(--darkblue);
@@ -327,12 +326,12 @@ h2{
     opacity: 0.7; 
 }
 
-
 .grid {
   height: 150px;
-  border: 2px solid var(--grey);
-  border-radius: 80% / 10%;
+  border-radius: 10px;
   margin: 0.8%;
+  background: radial-gradient(circle at bottom center, #082d4f 15px, #06213a);
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, .5);
  }
 
 
