@@ -329,9 +329,9 @@ h2{
 .grid {
   height: 150px;
   border-radius: 10px;
-  margin: 0.8%;
+  margin: 1%;
   background: radial-gradient(circle at bottom center, #082d4f 15px, #06213a);
-  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, .5);
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, .6);
  }
 
 
