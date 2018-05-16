@@ -38,7 +38,7 @@ body.page-split p {
   color: var(--asphalt); 
 }
 
-.fs-split {
+.split {
   width: 100vw;
   height: 100vh;
   display: -webkit-box;
@@ -47,14 +47,14 @@ body.page-split p {
 }
 
   @media (max-width: 768px) {
-    .fs-split {
+    .split {
       height: auto;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; 
         } 
       }
 
-  .fs-split .split-image {
+  .split .split__image {
     width: 50%;
     height: 100vh;
     background-color:  var(--red);
@@ -62,7 +62,7 @@ body.page-split p {
   }
 
     @media (max-width: 768px) {
-      .fs-split .split-image {
+      .split .split__image {
         height: 100vh;
         width: 100%; 
       } 
@@ -108,7 +108,7 @@ body.page-split p {
   
 }
 
-  .fs-split .split-content {
+  .split .split-content {
     width: 50%;
     min-height: 100vh;
     display: -webkit-box;
@@ -124,32 +124,32 @@ body.page-split p {
    }
 
     @media (max-width: 768px) {
-      .fs-split .split-content {
+      .split .split-content {
         width: 100%;
         height: auto; 
         }
          }
 
-    .fs-split .split-content .split-center {
+    .split .split-content .split-center {
       padding: 80px;
       max-width: 640px;
       margin-top: auto;
       margin-bottom: auto; 
     }
       @media (max-width: 1200px) {
-        .fs-split .split-content .split-center {
+        .split .split-content .split-center {
           padding: 60px; 
           }
            }
 
       @media (max-width: 768px) {
-        .fs-split .split-content .split-center {
+        .split .split-content .split-center {
           padding: 40px; 
           }
            }
 
        @media(max-width: 320px) {
-        .fs-split .split-content .split-center {
+        .split .split-content .split-center {
           padding: 20px;
         }
      }    
@@ -245,37 +245,29 @@ body.page-split p {
       color: var(--grey); 
    }
 
-
-.anchor-clear {
-  display: block;
-  height: 50px;
-  margin-top: -4px;
-  visibility: hidden;
-}
-
 .home-img {
-  margin: 80px auto 40px 30vw; /*fallback for no calc support*/
-  margin: 80px calc(50% - 75px) 40px calc(50% - 75px);  /*depending on header height*/
+  margin: 120px auto 40px 30vw; /*fallback for no calc support*/
+  margin: 120px calc(50% - 75px) 40px calc(50% - 75px);  /*depending on header height*/
   width: 150px;
   border-radius: 60%;
 }
 
 
 @media(max-width: 1200px){
-  .anchor-clear{
-  margin-top: -1px;
+  .home-img{
+  margin-top: 190px;
 }
 }
 
 @media(max-width: 768px){
-  .anchor-clear{
-  margin-top: -2px;
+  .home-img{
+  margin-top: 180px;
 }
 }
 
-@media (max-width: 320px){
-  .anchor-clear {
-    margin-top: -45px;
+@media (max-width: 414px){
+  .home-img {
+    margin-top: 120px;
   }
 }
 
