@@ -54,7 +54,7 @@ body.page-split p {
         } 
       }
 
-  .split .split__image {
+  .split .home {
     width: 50%;
     height: 100vh;
     background-color:  var(--red);
@@ -62,25 +62,25 @@ body.page-split p {
   }
 
     @media (max-width: 768px) {
-      .split .split__image {
+      .split .home {
         height: 100vh;
         width: 100%; 
       } 
     }
 
-.home-text {
+.home__text {
   text-align: center;
   margin: 4vh 3vw 10vh 3vw;
 }
 
 @media(max-width: 768px){
-  .home-text{
+  .home__text{
     margin: 8vh 6vw 10vh 6vw;
   }
 }
 
 @media(max-width: 320px){
-  .home-text{
+  .home__text{
     margin: 4vh 3vw 10vh 3vw;
   }
 }
@@ -108,7 +108,7 @@ body.page-split p {
   
 }
 
-  .split .split-content {
+  .split .split__content {
     width: 50%;
     min-height: 100vh;
     display: -webkit-box;
@@ -124,37 +124,37 @@ body.page-split p {
    }
 
     @media (max-width: 768px) {
-      .split .split-content {
+      .split .split__content {
         width: 100%;
         height: auto; 
         }
          }
 
-    .split .split-content .split-center {
+    .split .split__content .split__center {
       padding: 80px;
       max-width: 640px;
       margin-top: auto;
       margin-bottom: auto; 
     }
       @media (max-width: 1200px) {
-        .split .split-content .split-center {
+        .split .split__content .split__center {
           padding: 60px; 
           }
            }
 
       @media (max-width: 768px) {
-        .split .split-content .split-center {
+        .split .split__content .split__center {
           padding: 40px; 
           }
            }
 
        @media(max-width: 320px) {
-        .split .split-content .split-center {
+        .split .split__content .split__center {
           padding: 20px;
         }
      }    
 
-.split-intro {
+.split__intro {
   font-weight: 600;
   font-size: 64px;
   line-height: 80px;
@@ -162,13 +162,13 @@ body.page-split p {
 }
 
  @media(max-width: 320px) {
-        .fs-intro {
+        .split__intro {
           padding: 20px;
           font-size: 34px;
         }
       }    
 
-  .split-intro h1 {
+  .split__intro h1 {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 16px;
@@ -179,73 +179,73 @@ body.page-split p {
   }
 
   @media(max-width: 768px){
-    .split-intro h1{
+    .split__intro h1{
     margin-top: 40px;
     }
   }
 
    @media(max-width: 320px){
-    .split-intro h1{
+    .split__intro h1{
     margin-top: 40px;
     }
   }
 
 
-  .split-intro .tagline {
+  .split__intro .tagline {
     color: var(--grey); 
   }
 
-.split-bio {
+.split__bio {
   padding: 35px 0 40px 0;
   font-family: 'Open Sans', sans-serif;
   opacity: 0.8;
 }
 
   @media (max-width: 1200px) {
-    .split-bio {
+    .split__bio {
       padding: 30px 0; 
       }
        }
 
   @media (max-width: 768px) {
-    .split-bio {
+    .split__bio {
       padding: 20px 0; 
       }
        }
 
   @media (max-width: 320px) {
-    .split-bio {
+    .split__bio {
       padding: 20px;
     }
   }
 
-  .split-bio a {
+  .split__bio a {
     color: var(--asphalt);
     transition-duration: 0.5s;
     border-bottom: 1px dotted var(--asphalt);
   }
 
-    .split-bio a:hover {
+    .split__bio a:hover {
       color: var(--red);
       transition-duration: 0.1s;
       border-bottom: 1px dotted var(--red);
     } 
 
-  .split-credit {
+  .split__credit {
     opacity: 0.6; 
     padding-top: 60px;
   }
 
-  .split-credit p {
+  .split__credit p {
     font-size: 12px;
     line-height: 10px; 
   }
 
-  .split-credit p a {
+  .split__credit p a {
       color: var(--grey); 
    }
 
-.home-img {
+.home__img {
   margin: 120px auto 40px 30vw; /*fallback for no calc support*/
   margin: 120px calc(50% - 75px) 40px calc(50% - 75px);  /*depending on header height*/
   width: 150px;
@@ -254,24 +254,24 @@ body.page-split p {
 
 
 @media(max-width: 1200px){
-  .home-img{
+  .home__img{
   margin-top: 190px;
 }
 }
 
 @media(max-width: 768px){
-  .home-img{
+  .home__img{
   margin-top: 180px;
 }
 }
 
 @media (max-width: 414px){
-  .home-img {
+  .home__img {
     margin-top: 120px;
   }
 }
 
-.home-links-container {
+.home__container {
   text-align: center;
   font-size: 1.4em;
   padding-top: 10px;
@@ -281,13 +281,13 @@ body.page-split p {
 }
 
 @media(max-width: 768px){
-  .home-links-container{
+  .home__container{
     padding-top: 14px;
   }
 }
 
 
-.home-links {
+.home__links {
   display: inline;
   padding-left: 1vw;
   padding-right: 1vw;
