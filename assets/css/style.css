@@ -252,12 +252,6 @@ body.page-split p {
   border-radius: 60%;
 }
 
-@media(max-width: 1600px){
-  .home__img{
-    margin-top: 240px;
-  }
-}
-
 
 @media(max-width: 1365px){
   .home__img{
