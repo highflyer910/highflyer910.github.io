@@ -254,12 +254,12 @@ body.page-split p {
 
 @media(max-width: 1600px){
   .home__img{
-    margin-top: 260px;
+    margin-top: 240px;
   }
 }
 
 
-@media(max-width: 1280px){
+@media(max-width: 1365px){
   .home__img{
   margin-top: 190px;
 }
