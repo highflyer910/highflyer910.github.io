@@ -252,10 +252,16 @@ body.page-split p {
   border-radius: 60%;
 }
 
-
-@media(max-width: 1200px){
+@media(max-width: 1600px){
   .home__img{
-  margin-top: 260px;
+    margin-top: 260px;
+  }
+}
+
+
+@media(max-width: 1280px){
+  .home__img{
+  margin-top: 190px;
 }
 }
 
