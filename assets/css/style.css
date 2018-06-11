@@ -253,7 +253,7 @@ body.page-split p {
 }
 
 
-@media(max-width: 1365px){
+@media(max-width: 1200px){
   .home__img{
   margin-top: 190px;
 }
