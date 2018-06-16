@@ -13,6 +13,7 @@
   --asphalt: #bac6d3;
   --white: #fff;
   --darkblue: #212f3d;
+  --pink: #FFF2F2;
 }
 
 /* -- Content -- */
@@ -86,7 +87,7 @@ body.page-split p {
 }
 
 #text {
-  color: #fff2f2;
+  color: var(--pink);
   font-weight: bold;
   letter-spacing: .7px;
   opacity: .9;
@@ -103,9 +104,9 @@ body.page-split p {
 }
 
 #text a{
-  color: #fff2f2;
+  color: var(--pink);
   cursor: pointer;
-  border-bottom: 1px dotted #FFF2F2;
+  border-bottom: 1px dotted var(--pink);
 }
 
   .split .split__content {
