@@ -391,11 +391,11 @@ h2{
    opacity: 0.8; 
 }
 
-.split__info li:nth-child(3) a{
+.split__info li:nth-child(2) a{
   color: var(--grey);
 }
 
-.split__info li:nth-child(3) a:hover{
+.split__info li:nth-child(2) a:hover{
   font-weight: bold;
 }
 
