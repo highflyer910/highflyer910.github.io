@@ -196,6 +196,11 @@ body.page-split p {
     color: var(--grey); 
   }
 
+  .split__intro .split__intro--title:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px var(--grey);
+  }
+
 .split__bio {
   padding: 35px 0 40px 0;
   font-family: 'Open Sans', sans-serif;
