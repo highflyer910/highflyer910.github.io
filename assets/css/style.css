@@ -33,7 +33,7 @@ html {
 
 body.page-split {
   background-color: var(--blue);
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', Sans-Serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
@@ -78,6 +78,7 @@ body.page-split p {
     }
 
 .home__text {
+  font-family: 'Poppins', Sans-Serif;
   text-align: center;
   margin: 5vh 3vw 10vh 3vw;
 }
@@ -178,11 +179,12 @@ body.page-split p {
 
   .split__intro h1{
     font-weight: 600;
+    font-family: 'Abril Fatface', Cursive;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 16px;
     margin-bottom: 40px;
-    letter-spacing: 0.4px;
+    letter-spacing: 1px;
     color: var(--white); 
   }
 
@@ -198,8 +200,10 @@ body.page-split p {
     }
   }
 
-
   .split__intro .split__intro--title {
+    font-family: 'Abril Fatface', Cursive;
+    font-size: 48px;
+    letter-spacing: .7px;
     color: var(--white); 
   }
 
@@ -210,7 +214,7 @@ body.page-split p {
 
 .split__bio {
   padding: 35px 0 40px 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family:'Poppins', Sans-Serif;;
   
 }
 
@@ -246,7 +250,8 @@ body.page-split p {
   .split__credit { 
     padding-top: 70px;
     font-size: 12px;
-    line-height: 10px; 
+    line-height: 10px;
+    font-family: 'Poppins', Sans-Serif; 
   }
 
   .split__credit p a {
@@ -294,7 +299,6 @@ body.page-split p {
   }
 }
 
-
 .home__links {
   display: inline;
   letter-spacing: 7px;
@@ -315,7 +319,8 @@ a:hover{
 }
 
 h2{
-  font-weight: bold;
+    font-weight: bold;
+    font-family: 'Abril Fatface', Cursive;
     text-transform: uppercase;
     font-size: 11px;
     line-height: 11px;
@@ -375,8 +380,8 @@ h2{
 
 .flex__grid--item a{
    color: var(--red);
-   font-size: 20px;
    font-weight: 400;
+   font-family: 'Poppins', Sans-Serif;
 }
 
 
@@ -386,11 +391,11 @@ h2{
 }
 
 .split__info li{
+  font-family: 'Poppins', Sans-Serif;
   height: 32px;
   line-height: 28px;
   font-size: 14px;
   color: var(--asphalt);
-   opacity:1; 
 }
 
 .split__info li:nth-child(2) a{
@@ -411,11 +416,9 @@ h2{
   font-size: 22px;
 }
 
-
 ul{
   list-style: none;
 }
-
 
 .split__social a{
   color: var(--asphalt);
