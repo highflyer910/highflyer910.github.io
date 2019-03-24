@@ -104,7 +104,7 @@ body.page-split p {
 #text a{
   color: var(--pink);
   cursor: pointer;
-  border-bottom: 1px dotted var(--darkblue);
+  border-bottom: 1px solid var(--darkblue);
 }
 
   .split .split__content {
@@ -228,18 +228,45 @@ body.page-split p {
 
   .split__bio a {
     color: var(--asphalt);
-    border-bottom: 1px dotted var(--asphalt);
+    border-bottom: 1px solid var(--asphalt);
   }
 
     .split__bio a:hover {
       color: var(--asphalt);
-      border-bottom: 2px solid var(--asphalt);
+      border-bottom: transparent;
       transition: .2s all ease-in-out;
     } 
 
+   .borderRightLeft {
+    display: inline-block;
+     color: var(--asphalt);
+    position: relative;
+}
+
+.borderRightLeft::after {
+     content: '';
+     position: absolute;
+     width: 100%;
+     transform: scaleX(1);
+     height: 2px;
+     bottom: 0;
+     left: 0;
+     background-color: var(--blue);
+     transform-origin: bottom left;
+     transition: transform .3s ease-in-out;
+ }
+
+.borderRightLeft:hover::after {
+     transform: scaleX(0);
+     transform-origin: bottom right;
+ }
+
+
+
+
   .split__credit { 
     padding-top: 70px;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 10px;
     font-family: 'Poppins', Sans-Serif; 
   }
@@ -387,6 +414,7 @@ h2{
   font-size: 14px;
   color: var(--asphalt);
 }
+
 
 .split__info li:nth-child(2) a{
   color: var(--asphalt);
