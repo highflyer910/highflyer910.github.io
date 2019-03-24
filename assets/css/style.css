@@ -9,7 +9,7 @@
 :root {
   --red: #428884;
   --blue: #F7CF7E;
-  --white: #428884;
+  --white: #2d6360;
   --asphalt: #244c4a;
   --darkblue: #fceac4;
 }
@@ -175,7 +175,7 @@ body.page-split p {
     line-height: 16px;
     margin-bottom: 40px;
     letter-spacing: 1px;
-    color: var(--white); 
+    color: #2d6360; 
   }
 
   @media(max-width: 768px){
@@ -194,12 +194,12 @@ body.page-split p {
     font-family: 'Abril Fatface', Cursive;
     font-size: 48px;
     letter-spacing: .7px;
-    color: var(--white); 
+    color: #2d6360; 
   }
 
   .split__intro .split__intro--title:hover{
     color: transparent;
-    -webkit-text-stroke: 2px var(--white);
+    -webkit-text-stroke: 2px #2d6360;
   }
 
 .split__bio {
@@ -266,13 +266,13 @@ body.page-split p {
 
   .split__credit { 
     padding-top: 70px;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 10px;
     font-family: 'Poppins', Sans-Serif; 
   }
 
   .split__credit p a {
-      color: var(--asphalt); 
+      color: #2d6360; 
    }
 
 .home__img {
@@ -339,7 +339,7 @@ h2{
     font-weight: bold;
     font-family: 'Abril Fatface', Cursive;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 11px;
     margin-top: 20px;
     color: var(--asphalt);
@@ -396,7 +396,7 @@ h2{
 }
 
 .flex__grid--item a{
-   color: var(--red);
+   color: #2d6360;
    font-weight: 400;
    font-family: 'Poppins', Sans-Serif;
 }
@@ -412,7 +412,7 @@ h2{
   height: 32px;
   line-height: 28px;
   font-size: 14px;
-  color: var(--asphalt);
+  color: #2d6360;
 }
 
 
@@ -439,9 +439,9 @@ ul{
 }
 
 .split__social a{
-  color: var(--asphalt);
+  color: #2d6360;
 }
 
 .split__social a:hover{
-  color: var(--white);
+  color: var(--asphalt);
 }
