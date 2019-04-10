@@ -62,10 +62,11 @@ body.page-split p {
 
     @media (max-width: 768px) {
       .split .home {
-        height: 100vh;
+        height: 100%;
         width: 100%; 
       } 
     }
+
 
 .home__text {
   font-family: 'Poppins', Sans-Serif;
@@ -283,21 +284,21 @@ body.page-split p {
 }
 
 
-@media(max-width: 1200px){
+@media(max-width: 1280px){
   .home__img{
-  margin-top: 190px;
+  margin-top: 200px;
 }
 }
 
 @media(max-width: 768px){
   .home__img{
-  margin-top: 180px;
+  margin-top: 150px;
 }
 }
 
 @media (max-width: 414px){
   .home__img {
-    margin-top: 120px;
+    margin-top: 100px;
   }
 }
 
