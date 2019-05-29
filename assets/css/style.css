@@ -316,7 +316,6 @@ body.page-split p {
   display: inline;
   letter-spacing: 7px;
   border-radius: 1em;
-  -o-transition: .2s ease;
   transition: .2s ease;
 }
 
@@ -415,7 +414,6 @@ h2{
    display: inline;
   padding-left: .5vw;
   padding-right: .5vw;
-  -o-transition: .2s ease;
   transition: .2s ease;
   font-size: 22px;
 }
