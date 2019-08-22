@@ -297,6 +297,7 @@ body.page-split p {
   }
 }
 
+
 .home__container {
   text-align: center;
   font-size: 1.4em;
@@ -304,6 +305,12 @@ body.page-split p {
   padding-bottom: 8px;
   max-width: 960px;  /* compatibility large screen fallback */
   margin: auto;
+}
+
+@media(max-width: 1600px){
+  .home__container{
+    padding-top: 16px;
+  }
 }
 
 @media(max-width: 768px){
