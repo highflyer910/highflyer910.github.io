@@ -38,7 +38,7 @@ body.page-split p {
   display: flex; 
 }
 
-  @media (max-width: 768px) {
+  @media only screen(max-width: 768px) {
     .split {
       height: auto;
       flex-wrap: wrap; 
@@ -52,7 +52,7 @@ body.page-split p {
     box-shadow: 10px 10px 30px #171000;
   }
 
-    @media (max-width: 768px) {
+    @media only screen(max-width: 768px) {
       .split .home {
         height: 100%;
         width: 100%; 
@@ -66,13 +66,13 @@ body.page-split p {
   margin: 5vh 3vw 10vh 3vw;
 }
 
-@media(max-width: 768px){
+@media only screen(max-width: 768px){
   .home__text{
     margin: 2vh 6vw 10vh 6vw;
   }
 }
 
-@media(max-width: 320px){
+@media only screen(max-width: 320px){
   .home__text{
     margin: 2vh 3vw 10vh 3vw;
   }
@@ -87,7 +87,7 @@ body.page-split p {
   font-size: 15pt;
 }
 
-@media(max-width: 320px){
+@media only screen(max-width: 320px){
     #text{
       font-size: 14pt;
       line-height: 2;
@@ -112,7 +112,7 @@ body.page-split p {
     overflow: auto;
    }
 
-    @media (max-width: 768px) {
+    @media only screen(max-width: 768px) {
       .split .split__content {
         width: 100%;
         height: auto; 
@@ -125,19 +125,19 @@ body.page-split p {
       margin-top: auto;
       margin-bottom: auto; 
     }
-      @media (max-width: 1200px) {
+      @media only screen(max-width: 1200px) {
         .split .split__content .split__center {
           padding: 60px; 
           }
            }
 
-      @media (max-width: 768px) {
+      @media only screen(max-width: 768px) {
         .split .split__content .split__center {
           padding: 40px; 
           }
            }
 
-       @media(max-width: 320px) {
+       @media only screen(max-width: 320px) {
         .split .split__content .split__center {
           padding: 20px;
         }
@@ -150,7 +150,7 @@ body.page-split p {
   letter-spacing: -2px; 
 }
 
- @media(max-width: 320px) {
+ @media only screen(max-width: 320px) {
         .split__intro {
           padding: 20px;
           font-size: 34px;
@@ -168,13 +168,13 @@ body.page-split p {
     color: var(--darkgreen); 
   }
 
-  @media(max-width: 768px){
+  @media only screen(max-width: 768px){
     .split__intro h1{
       display: none;
     }
   }
 
-   @media(max-width: 320px){
+   @media only screen(max-width: 320px){
     .split__intro h1{
     display: none;
     }
@@ -198,19 +198,19 @@ body.page-split p {
   
 }
 
-  @media (max-width: 1200px) {
+  @media only screen(max-width: 1200px) {
     .split__bio {
       padding: 30px 0; 
       }
        }
 
-  @media (max-width: 768px) {
+  @media only screen(max-width: 768px) {
     .split__bio {
       padding: 20px 0; 
       }
        }
 
-  @media (max-width: 320px) {
+  @media only screen(max-width: 320px) {
     .split__bio {
       padding: 20px;
     }
@@ -240,25 +240,24 @@ body.page-split p {
    }
 
 .home__img {
-  margin: 120px auto 40px 30vw;
   margin: 120px calc(50% - 75px) 40px calc(50% - 75px); 
-  width: 160px;
+  width: 165px;
 }
 
 
-@media(max-width: 1280px){
+@media only screen(max-width: 1600px){
+  .home__img{
+  margin-top: 150px;
+}
+}
+
+@media only screen(max-width: 768px){
   .home__img{
   margin-top: 130px;
 }
 }
 
-@media(max-width: 768px){
-  .home__img{
-  margin-top: 130px;
-}
-}
-
-@media (max-width: 414px){
+@media only screen(max-width: 414px){
   .home__img {
     margin-top: 100px;
   }
@@ -274,13 +273,13 @@ body.page-split p {
   margin: auto;
 }
 
-@media(max-width: 1600px){
+@media only screen(max-width: 1600px){
   .home__container{
     padding-top: 16px;
   }
 }
 
-@media(max-width: 768px){
+@media only screen(max-width: 768px){
   .home__container{
     padding-top: 14px;
   }
