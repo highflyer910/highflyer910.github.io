@@ -248,6 +248,7 @@ body.page-split p {
 @media only screen(max-width: 1600px){
   .home__img{
   margin-top: 150px;
+  width: 175px;
 }
 }
 
@@ -260,6 +261,7 @@ body.page-split p {
 @media only screen(max-width: 414px){
   .home__img {
     margin-top: 100px;
+    width: 145px;
   }
 }
 
