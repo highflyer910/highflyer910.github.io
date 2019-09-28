@@ -153,7 +153,7 @@ body.page-split p {
   letter-spacing: -2px; 
 }
 
- @media screen and(max-width: 320px) {
+ @media (max-width: 320px) {
         .split__intro {
           padding: 20px;
           font-size: 34px;
@@ -171,13 +171,13 @@ body.page-split p {
     color: var(--darkgreen); 
   }
 
-  @media screen and(max-width: 768px){
+  @media (max-width: 768px){
     .split__intro h1{
       display: none;
     }
   }
 
-   @media  screen and(max-width: 320px){
+   @media (max-width: 320px){
     .split__intro h1{
     display: none;
     }
@@ -201,19 +201,19 @@ body.page-split p {
   
 }
 
-  @media screen and(max-width: 1200px) {
+  @media (max-width: 1200px) {
     .split__bio {
       padding: 30px 0; 
       }
        }
 
-  @media screen and(max-width: 768px) {
+  @media (max-width: 768px) {
     .split__bio {
       padding: 20px 0; 
       }
        }
 
-  @media screen and(max-width: 320px) {
+  @media (max-width: 320px) {
     .split__bio {
       padding: 20px;
     }
@@ -249,20 +249,20 @@ body.page-split p {
 }
 
 
-@media screen and(max-width: 1600px){
+@media (max-width: 1600px){
   .home__img{
   margin-top: 150px;
   width: 175px;
 }
 }
 
-@media screen and(max-width: 768px){
+@media (max-width: 768px){
   .home__img{
   margin-top: 130px;
 }
 }
 
-@media screen and(max-width: 414px){
+@media (max-width: 414px){
   .home__img {
     margin-top: 100px;
     width: 145px;
@@ -279,13 +279,13 @@ body.page-split p {
   margin: auto;
 }
 
-@media screen and(max-width: 1600px){
+@media (max-width: 1600px){
   .home__container{
     padding-top: 16px;
   }
 }
 
-@media screen and(max-width: 768px){
+@media (max-width: 768px){
   .home__container{
     padding-top: 14px;
   }
