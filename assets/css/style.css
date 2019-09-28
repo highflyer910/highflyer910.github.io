@@ -268,7 +268,7 @@ body.page-split p {
 .home__img {
   margin: 120px auto 40px 30vw;
   margin: 120px calc(50% - 75px) 40px calc(50% - 75px); 
-  width: 165px;
+  width: 160px;
 }
 
 
