@@ -219,12 +219,13 @@ body.page-split p {
   .split__bio a {
     color: var(--lightgreen);
     border-bottom: 1px solid var(--lightgreen);
+    transition: .2s all ease-in-out;
   }
 
     .split__bio a:hover {
       color: var(--lightgreen);
-      border-bottom: transparent;
-      transition: .2s all ease-in-out;
+      border-bottom: 1px dashed;
+      
     } 
 
    .borderRightLeft {
