@@ -192,11 +192,8 @@ body.page-split p {
     font-size: 14px;
     line-height: 10px;
     font-family: 'Poppins', Sans-Serif; 
+    color: var(--darkgreen); 
   }
-
-  .split__credit p a {
-      color: var(--darkgreen); 
-   }
 
 .home__img {
   margin: 120px auto 40px 30vw;
