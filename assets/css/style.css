@@ -13,8 +13,6 @@
   --lightyellow: #FFB600;
 }
 
-/* -- Content -- */
-
 html {
   scroll-behavior: smooth;
 }
@@ -39,7 +37,7 @@ body.page-split p {
   display: flex; 
 }
 
-  @media (max-width: 800px) {
+  @media (max-width:800px){
     .split {
       height: auto;
       -ms-flex-wrap: wrap;
@@ -54,7 +52,7 @@ body.page-split p {
     box-shadow: 10px 10px 30px #171000;
   }
 
-    @media (max-width: 800px) {
+    @media (max-width:800px){
       .split .home {
         height: 100vh;
         width: 100%; 
@@ -67,7 +65,7 @@ body.page-split p {
   margin: 5vh 3vw 10vh 3vw;
 }
 
-@media (max-width: 800px){
+@media (max-width:800px){
   .home__text{
     margin: 2vh 6vw 10vh 6vw;
   }
@@ -75,7 +73,7 @@ body.page-split p {
 
 #text {
   color: var(--lightyellow);
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: .7px;
   opacity: .9;
   line-height: 1.5;
@@ -99,7 +97,7 @@ body.page-split p {
     overflow: auto;
    }
 
-    @media (max-width: 800px) {
+    @media (max-width:800px) {
       .split .split__content {
         width: 100%;
         height: auto; 
@@ -112,13 +110,13 @@ body.page-split p {
       margin-top: auto;
       margin-bottom: auto; 
     }
-      @media (max-width: 1200px) {
+      @media (max-width:1200px){
         .split .split__content .split__center {
           padding: 60px; 
           }
            }
 
-      @media (max-width: 800px) {
+      @media (max-width:800px){
         .split .split__content .split__center {
           padding: 40px; 
           }
@@ -163,13 +161,13 @@ body.page-split p {
   
 }
 
-  @media (max-width: 1200px) {
+  @media (max-width:1200px){
     .split__bio {
       padding: 30px 0; 
       }
        }
 
-  @media (max-width: 800px) {
+  @media (max-width:800px){
     .split__bio {
       padding: 20px 0; 
       }
@@ -202,14 +200,14 @@ body.page-split p {
 }
 
 
-@media screen only(max-width: 1600px){
+@media screen only(max-width:1600px){
   .home__img{
   margin-top: 170px;
   width: 180px;
 }
 }
 
-@media (max-width: 800px){
+@media (max-width:800px){
   .home__img{
   margin-top: 110px;
 }
@@ -226,7 +224,7 @@ body.page-split p {
   margin: auto;
 }
 
-@media (max-width: 1600px){
+@media (max-width:1600px){
   .home__container{
     padding-top: 16px;
   }
