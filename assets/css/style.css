@@ -49,7 +49,7 @@ body.page-split p {
     width: 50%;
     height: 100vh;
     background-color:  var(--green);
-    box-shadow: 10px 10px 30px #171000;
+    box-shadow: 10px 10px 30px #ffda00;
   }
 
     @media (max-width:800px){
@@ -271,10 +271,11 @@ h2{
 
 .flex__grid {
   height: 150px;
-  border-radius: 5px;
+  border-radius: 40px;
   margin: 2%;
-  background: var(--yellow);
-  box-shadow: 0 0 30px #171000;
+  background: #FFB600;
+  box-shadow:  -20px -20px 35px #cc9200, 
+             20px 20px 35px #ffda00;
  }
 
  .flex__grid:hover{
