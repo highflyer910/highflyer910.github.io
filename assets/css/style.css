@@ -271,11 +271,12 @@ h2{
 
 .flex__grid {
   height: 150px;
-  border-radius: 40px;
+
   margin: 2%;
-  background: #FFB600;
-  box-shadow:  -20px -20px 35px #cc9200, 
-             20px 20px 35px #ffda00;
+ border-radius: 15px;
+background: #FFB600;
+box-shadow:  8px 8px 14px #e6a400, 
+             -8px -8px 14px #ffc800;
  }
 
  .flex__grid:hover{
