@@ -326,6 +326,12 @@ box-shadow:  8px 8px 13px #e1b003,
   color: var(--darkgreen);
 }
 
+.split__info li:nth-child(1)::selection {
+  color: var(--yellow);
+  background-color: var(--green);
+  text-shadow: .5px .5px #ccc;
+}
+
 
 .split__info li:nth-child(2) a{
   color: var(--lightgreen);
