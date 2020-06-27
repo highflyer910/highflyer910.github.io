@@ -83,6 +83,12 @@ body.page-split p {
 #text a{
   cursor: pointer;
   border-bottom: 1px solid var(--lightyellow);
+  transition: .3s all ease-in-out;
+}
+
+#text a:hover{
+  background-color: var(--yellow);
+  color: var(--green);
 }
 
   .split .split__content {
@@ -172,8 +178,8 @@ body.page-split p {
       padding: 20px 0; 
       }
        }
-
-  .split__bio a {
+/*
+ .split__bio a {
     color: var(--lightgreen);
     border-bottom: 1px solid var(--lightgreen);
     transition: .2s all ease-in-out;
@@ -184,6 +190,11 @@ body.page-split p {
       border-bottom: 1px dashed;
       
     } 
+*/
+mark{
+  background-color: var(--green);
+  padding:0.1em 0.2em;
+}
 
   .split__credit { 
     padding-top: 70px;
