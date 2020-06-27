@@ -178,7 +178,7 @@ body.page-split p {
       padding: 20px 0; 
       }
        }
-/*
+
  .split__bio a {
     color: var(--lightgreen);
     border-bottom: 1px solid var(--lightgreen);
@@ -186,16 +186,15 @@ body.page-split p {
   }
 
     .split__bio a:hover {
-      color: var(--lightgreen);
-      border-bottom: 1px dashed;
+      background-color: var(--green);
       
     } 
-*/
+/*
 mark{
   background-color: var(--green);
   padding:0.1em 0.2em;
 }
-
+*/
   .split__credit { 
     padding-top: 70px;
     font-size: 14px;
