@@ -301,6 +301,7 @@ box-shadow:  8px 8px 13px #e1b003,
   -webkit-box-align: center;
         align-items: center;
   padding: 10% 0 10% 0;
+  font-size: 18px;
 }
 
 .flex__grid--item {
