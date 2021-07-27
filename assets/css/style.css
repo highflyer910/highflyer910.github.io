@@ -17,6 +17,21 @@ html {
   scroll-behavior: smooth;
 }
 
+.mouse {
+	width: 10px;
+	height: 10px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	transform: translate(50vw, -10px);
+	transition: 100ms cubic-bezier(.25, .25, .42, 1);
+	background: transparent;
+	border-radius: 999px;
+	border: 0.5px solid black;
+	will-change: transform;
+	pointer-events: none;
+}
+
 body.page-split {
   background-color: var(--yellow);
   font-weight: 300;
@@ -80,7 +95,7 @@ body.page-split p {
   font-size: 15pt;
 }
 
-#text a:link{
+#text a{
   cursor: pointer;
   border-bottom: 1px solid var(--lightyellow);
   transition: .3s all ease-in-out;
