@@ -13,25 +13,6 @@
   --lightyellow: #F5BF03;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-.mouse {
-	width: 10px;
-	height: 10px;
-	position: fixed;
-	left: 0;
-	top: 0;
-	transform: translate(50vw, -10px);
-	transition: 100ms cubic-bezier(.25, .25, .42, 1);
-	background: transparent;
-	border-radius: 999px;
-	border: 0.5px solid black;
-	will-change: transform;
-	pointer-events: none;
-}
-
 body.page-split {
   background-color: var(--yellow);
   font-weight: 300;
@@ -40,6 +21,7 @@ body.page-split {
   letter-spacing: -0.2px;
   color: white;
   animation: fadein 2s; 
+  cursor: pointer;
 }
 
 body.page-split p {
