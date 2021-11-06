@@ -16,3 +16,9 @@ document.addEventListener('mousemove', e => {
 	)`;
 	
 });
+
+gsap.to('.mask', {
+  duration: 6,
+  ease: "sine.out",
+  "--mask": 'linear-gradient(-30deg, transparent -50%, black 0%)'
+})
