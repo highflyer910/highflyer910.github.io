@@ -6,11 +6,8 @@
 }
 
 :root {
-  --green: #1B2431;
-  --yellow: #F5BF03;
-  --darkgreen: #1B2431;
-  --lightgreen: #1B2431;
-  --lightyellow: #F5BF03;
+  --green: #014D4E;
+  --yellow: #FCB001;
 }
 
 body.page-split {
@@ -24,7 +21,7 @@ body.page-split {
 }
 
 body.page-split p {
-  color: var(--lightgreen); 
+  color: var(--green); 
 }
 
 .split {
@@ -74,7 +71,7 @@ body.page-split p {
 }
 
 #text {
-  color: var(--lightyellow);
+  color: var(--yellow);
   font-weight: 700;
   letter-spacing: .7px;
   opacity: .9;
@@ -84,7 +81,7 @@ body.page-split p {
 
 #text a{
   cursor: pointer;
-  border-bottom: 1px solid var(--lightyellow);
+  border-bottom: 1px solid var(--yellow);
   transition: .3s all ease-in-out;
 }
 
@@ -146,14 +143,14 @@ body.page-split p {
   line-height: 16px;
   margin-bottom: 40px;
   letter-spacing: .4px;
-  color: var(--darkgreen); 
+  color: var(--green); 
 }
 
 .split__intro .split__intro--title {
   font-family: 'Abril Fatface', Cursive;
   font-size: 48px;
   letter-spacing: .4px;
-  color: var(--darkgreen); 
+  color: var(--green); 
 }
 
  /* .split__intro .split__intro--title:hover{
@@ -180,8 +177,8 @@ body.page-split p {
 }
 
 .split__bio a{
-  color: var(--lightgreen);
-  border-bottom: 1px solid var(--lightgreen);
+  color: var(--green);
+  border-bottom: 1px solid var(--green);
   transition: .2s all ease-in-out;
 }
 
@@ -200,7 +197,7 @@ mark{
   font-size: 14px;
   line-height: 10px;
   font-family: 'Poppins', Sans-Serif; 
-  color: var(--darkgreen); 
+  color: var(--green); 
 }
 
 .home__img {
@@ -252,7 +249,7 @@ mark{
 
 a {
   text-decoration: none;
-  color: var(--lightyellow);
+  color: var(--yellow);
   text-align: center;
 }
 
@@ -267,7 +264,7 @@ h2{
   font-size: 13px;
   line-height: 11px;
   margin-top: 20px;
-  color: var(--lightgreen);
+  color: var(--green);
   letter-spacing: 2px; 
 }
 
@@ -281,9 +278,9 @@ h2{
   height: 150px;
   margin: 2%;
   border-radius: 15px;
-  background: #F5BF03;
-  box-shadow:  8px 8px 13px #e1b003, 
-             -8px -8px 13px #ffce03;
+  background: #FCB001;
+  box-shadow:  7px 7px 10px #eda501,
+             -7px -7px 10px #ffbb01;
  }
 
 .flex__grid:hover{
@@ -314,7 +311,7 @@ h2{
 }
 
 .flex__grid--item a{
-  color: var(--darkgreen);
+  color: var(--green);
   font-weight: 400;
   font-family: 'Poppins', Sans-Serif;
 }
@@ -328,7 +325,7 @@ h2{
   height: 32px;
   line-height: 28px;
   font-size: 14px;
-  color: var(--darkgreen);
+  color: var(--green);
 }
 
 .split__info li:nth-child(1)::selection {
@@ -339,7 +336,7 @@ h2{
 
 
 .split__info li:nth-child(2) a{
-  color: var(--lightgreen);
+  color: var(--green);
 }
 
 .split__info li:nth-child(2) a:hover{
@@ -359,9 +356,9 @@ ul{
 }
 
 .split__social a{
-  color: var(--darkbgreen);
+  color: var(--green);
 }
 
 .split__social a:hover{
-  color: var(--lightgreen);
+  color: var(--green);
 }
