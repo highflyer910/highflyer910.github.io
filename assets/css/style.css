@@ -96,6 +96,7 @@ a:hover{
 #text a:hover{
   background-color: var(--yellow);
   color: var(--green);
+  padding: 3px;
 }
 
 .split .split__content {
@@ -154,6 +155,7 @@ a:hover{
 .split__bio a:hover {
   background-color: var(--green);
   color: var(--yellow);
+  padding: 3px;
 }
 
 /*
