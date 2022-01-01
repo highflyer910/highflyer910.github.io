@@ -1,8 +1,8 @@
 var d = new Date();
 
-var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+//var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-document.getElementById('wday').innerHTML = ("Happy " + days[d.getDay()] + "!<br><br>Please, get vaxxed, and wear a mask. Save Lives.");
+document.getElementById('wday').innerHTML = ("Happy new " + d.getFullYear() + "!🎄<br><br>Please, get vaxxed, and wear a mask. Save Lives.");
 
 
 
