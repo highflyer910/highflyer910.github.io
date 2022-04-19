@@ -68,7 +68,9 @@ body.page-split p {
   transition: 0.2s ease;
 }
 
-a {
+a:link,
+a:focus,
+a:visited {
   text-decoration: none;
   color: var(--yellow);
   text-align: center;
