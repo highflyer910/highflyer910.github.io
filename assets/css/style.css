@@ -91,14 +91,20 @@ a:hover {
 
 #text a {
   cursor: pointer;
-  border-bottom: 1px solid var(--yellow);
-  transition: 0.3s all ease-in-out;
+  background: linear-gradient(
+       to bottom,
+       var(--yellow) 0%,
+       var(--yellow) 100%
+     );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  transition: background-size .3s;
 }
 
 #text a:hover {
-  background-color: var(--yellow);
+  background-size: 3px 50px;
   color: var(--green);
-  padding: 3px;
 }
 
 .split .split__content {
@@ -150,14 +156,21 @@ a:hover {
 
 .split__bio a {
   color: var(--green);
-  border-bottom: 1px solid var(--green);
-  transition: 0.3s all ease-in-out;
+  background:
+     linear-gradient(
+       to bottom,
+       var(--green) 0%,
+       var(--green) 100%
+     );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  transition: background-size .3s;
 }
 
 .split__bio a:hover {
-  background-color: var(--green);
+  background-size: 4px 50px;
   color: var(--yellow);
-  padding: 3px;
 }
 
 /*
