@@ -173,6 +173,24 @@ a:hover {
   color: var(--yellow);
 }
 
+.fa-ko-fi::before {
+	content: '\f0f4';
+	display: inline-block;
+	font-size: 1.1em;
+	line-height: 0.45em;
+	margin: -0.45em 0 0 -0.2em;
+	overflow-y: hidden;
+	padding-top: 0.45em;
+}
+.fa-ko-fi::after {
+	color: #014D4E;
+	content: '\f004';
+	font-size: 50%;
+	font-weight: 900;
+	margin: 0.5em 0 0 -2.5em;
+	position: absolute;
+}
+
 /*
 mark{
 background-color: var(--green);
