@@ -269,6 +269,10 @@ h2 {
   padding-top: 18px;
 }
 
+.split__info .split__info-mail{
+  color: var(--green);
+}
+
 ul {
   list-style: none;
 }
