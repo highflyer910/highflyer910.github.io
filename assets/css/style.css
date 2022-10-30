@@ -7,8 +7,8 @@
 }
 
 :root {
-  --green: #014d4e;
-  --yellow: #fcb001;
+  --green: #204116;
+  --yellow: #FFF200;
 }
 
 body.page-split {
@@ -92,7 +92,7 @@ a:visited {
 }
 
 a:hover {
-  color: #fcd060;
+  color: #fff41f;
 }
 
 #text {
@@ -198,7 +198,7 @@ a:hover {
 	padding-top: 0.45em;
 }
 .fa-ko-fi::after {
-	color: #014D4E;
+	color: #204116;
 	content: '\f004';
 	font-size: 50%;
 	font-weight: 900;
@@ -232,9 +232,9 @@ h2 {
 .flex__grid {
   height: 150px;
   margin: 2%;
-  border-radius: 15px;
-  background: #fcb001;
-  box-shadow: 7px 7px 10px #eda501, -7px -7px 10px #ffbb01;
+  border-radius: 5px;
+  background: var(--yellow);
+  box-shadow: 7px 7px 10px #9e9600, -7px -7px 10px #f2e716;
 }
 
 .flex__grid:hover {
@@ -302,7 +302,7 @@ ul {
 }
 
 .split__social a:hover {
-  color: #006263;
+  color: #326622;
 }
 
 .split__credit {
