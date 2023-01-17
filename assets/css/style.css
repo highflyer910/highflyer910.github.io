@@ -7,8 +7,8 @@
 }
 
 :root {
-  --green: #204116;
-  --yellow: #FFF200;
+  --green: #060445;
+  --yellow: dodgerblue;
 }
 
 body.page-split {
@@ -53,7 +53,7 @@ body.page-split p {
   width: 50%;
   height: 100vh;
   background-color: var(--green);
-  box-shadow: 12px 12px 25px #a17c02;
+  box-shadow: 12px 12px 25px #0c4277;
 }
 
 .home__text {
@@ -92,7 +92,7 @@ a:visited {
 }
 
 a:hover {
-  color: #fff41f;
+  color: #0c4277;;
 }
 
 #text {
@@ -234,7 +234,7 @@ h2 {
   margin: 2%;
   border-radius: 5px;
   background: var(--yellow);
-  box-shadow: 7px 7px 10px #9e9600, -7px -7px 10px #f2e716;
+  box-shadow: 7px 7px 10px #062544, -7px -7px 10px #0c4277;
 }
 
 .flex__grid:hover {
@@ -302,7 +302,7 @@ ul {
 }
 
 .split__social a:hover {
-  color: #326622;
+  color: #0c4277;;
 }
 
 .split__credit {
