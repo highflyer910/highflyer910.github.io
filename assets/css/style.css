@@ -7,8 +7,8 @@
 }
 
 :root {
-  --green: #281613;
-  --yellow: orangered;
+  --yellow: #D2E4FF;
+  --blue: #0053D6;
 }
 
 body.page-split {
@@ -19,7 +19,7 @@ body.page-split {
 }
 
 body.page-split p {
-  color: var(--green);
+  color: var(--blue);
 }
 
 .mask {
@@ -33,11 +33,11 @@ body.page-split p {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: var(--green);
+  background-color: var(--blue);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--green);
+  background-color: var(--blue);
   border: 0.1em solid var(--yellow);
   border-radius: 100vw;
 }
@@ -51,8 +51,8 @@ body.page-split p {
 
 .split .home {
   width: 50%;
-  background-color: var(--green);
-  box-shadow: 12px 12px 25px rgb(138, 37, 1);
+  background-color: var(--blue);
+  box-shadow: 12px 12px 25px rgb(117, 127, 141);
 }
 
 .home__text {
@@ -91,7 +91,7 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(138, 37, 1);
+  color: #fff;
 }
 
 #text {
@@ -118,7 +118,7 @@ a:hover {
 
 #text a:hover {
   background-size: 3px 50px;
-  color: var(--green);
+  color: var(--blue);
 }
 
 .split .split__content {
@@ -148,13 +148,13 @@ a:hover {
   text-transform: uppercase;
   font-size: 18px;
   margin-bottom: 20px;
-  color: var(--green);
+  color: #123693;
 }
 
 .split__intro .split__intro--title {
   font-family: "Abril Fatface", Cursive;
   font-size: 48px;
-  color: var(--green);
+  color: var(--blue);
 }
 
 /* .split__intro .split__intro--title:hover{
@@ -169,12 +169,12 @@ a:hover {
 }
 
 .split__bio a {
-  color: var(--green);
+  color: var(--blue);
   background:
      linear-gradient(
        to bottom,
-       var(--green) 0%,
-       var(--green) 100%
+       var(--blue) 0%,
+       var(--blue) 100%
      );
   background-position: 0 100%;
   background-repeat: repeat-x;
@@ -197,7 +197,7 @@ a:hover {
 	padding-top: 0.45em;
 }
 .fa-ko-fi::after {
-	color: var(--green);
+	color: var(--blue);
 	content: '\f004';
 	font-size: 50%;
 	font-weight: 900;
@@ -219,7 +219,7 @@ h2 {
   font-size: 13px;
   line-height: 11px;
   margin-top: 20px;
-  color: var(--green);
+  color: var(--blue);
   letter-spacing: 2px;
 }
 
@@ -233,7 +233,7 @@ h2 {
   margin: 2%;
   border-radius: 5px;
   background: var(--yellow);
-  box-shadow: 7px 7px 10px rgb(138, 37, 1), -7px -7px 10px rgb(204, 55, 1);
+  box-shadow: 7px 7px 10px rgb(117, 127, 141), -7px -7px 10px rgb(199, 215, 239);
 }
 
 .flex__grid:hover {
@@ -259,7 +259,7 @@ h2 {
 }
 
 .flex__grid--item a {
-  color: var(--green);
+  color: var(--blue);
   font-weight: 400;
   font-family: "Poppins", Sans-Serif;
 }
@@ -269,7 +269,7 @@ h2 {
 }
 
 .split__info .split__info-mail{
-  color: var(--green);
+  color: var(--blue);
 }
 
 ul {
@@ -279,7 +279,7 @@ ul {
 .split__info li {
   font-family: "Poppins", Sans-Serif;
   font-size: 14px;
-  color: var(--green);
+  color: var(--blue);
   padding-top: 10px;
 }
 
@@ -297,11 +297,11 @@ ul {
 }
 
 .split__social a {
-  color: var(--green);
+  color: var(--blue);
 }
 
 .split__social a:hover {
-  color: rgb(138, 37, 1);
+  color: #014bc2;
 }
 
 .split__credit {
@@ -309,7 +309,7 @@ ul {
   font-size: 14px;
   line-height: 10px;
   font-family: "Poppins", Sans-Serif;
-  color: var(--green);
+  color: var(--blue);
 }
 
 @media (max-width: 800px) {
