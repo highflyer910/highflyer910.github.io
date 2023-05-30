@@ -187,24 +187,6 @@ a:hover {
   color: var(--yellow);
 }
 
-.fa-ko-fi::before {
-	content: '\f0f4';
-	display: inline-block;
-	font-size: 1.1em;
-	line-height: 0.45em;
-	margin: -0.45em 0 0 -0.2em;
-	overflow-y: hidden;
-	padding-top: 0.45em;
-}
-.fa-ko-fi::after {
-	color: var(--blue);
-	content: '\f004';
-	font-size: 50%;
-	font-weight: 900;
-	margin: 0.5em 0 0 -2.5em;
-	position: absolute;
-}
-
 /*
 mark{
 background-color: var(--green);
@@ -233,11 +215,12 @@ h2 {
   margin: 2%;
   border-radius: 5px;
   background: var(--yellow);
-  box-shadow: 7px 7px 10px rgb(117, 127, 141), -7px -7px 10px rgb(199, 215, 239);
+  /*box-shadow: 7px 7px 10px rgb(117, 127, 141), -7px -7px 10px rgb(199, 215, 239);*/
+  border: 1px solid var(--blue);
 }
 
-.flex__grid:hover {
-  box-shadow: none;
+.flex__grid--item:hover {
+  background-color: rgba(0, 83, 214, 0.1);
   transition: 0.4s all ease-in-out;
 }
 
@@ -368,13 +351,4 @@ ul {
   }
 }
 
-@media screen only (max-width: 1600px) {
-  .home__img {
-      margin-top: 170px;
-      width: 180px;
-  }
 
-  .home__container {
-      padding-top: 16px;
-  }
-}
