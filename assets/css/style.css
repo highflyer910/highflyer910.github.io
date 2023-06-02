@@ -220,7 +220,7 @@ h2 {
 }
 
 .flex__grid--item:hover {
-  background-color: rgba(0, 83, 214, 0.1);
+  transform: rotate(5deg);
   transition: 0.4s all ease-in-out;
 }
 
