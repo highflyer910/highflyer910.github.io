@@ -7,12 +7,13 @@
 }
 
 :root {
-  --yellow: #D2E4FF;
-  --blue: #0053D6;
+  --yellow: #F5F5F5;
+  --blue: #91B1A9;
 }
 
 body.page-split {
   background-color: var(--yellow);
+  background: url(https://grainy-gradients.vercel.app/noise.svg), transparent;
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
@@ -106,10 +107,10 @@ a:hover {
 #text a {
   cursor: pointer;
   background: linear-gradient(
-       to bottom,
-       var(--yellow) 0%,
-       var(--yellow) 100%
-     );
+      to bottom,
+      var(--yellow) 0%,
+      var(--yellow) 100%
+    );
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 2px 2px;
@@ -148,7 +149,7 @@ a:hover {
   text-transform: uppercase;
   font-size: 18px;
   margin-bottom: 20px;
-  color: #123693;
+  color: #728b85;
 }
 
 .split__intro .split__intro--title {
@@ -216,7 +217,6 @@ h2 {
   border-radius: 5px;
   background: var(--yellow);
   /*box-shadow: 7px 7px 10px rgb(117, 127, 141), -7px -7px 10px rgb(199, 215, 239);*/
-  border: 1px solid var(--blue);
 }
 
 .flex__grid--item:hover {
@@ -284,7 +284,7 @@ ul {
 }
 
 .split__social a:hover {
-  color: #014bc2;
+  color: #728b85;
 }
 
 .split__credit {
