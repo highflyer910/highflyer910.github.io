@@ -23,11 +23,13 @@ body.page-split p {
   color: var(--blue);
 }
 
+/**
 .mask {
   --mask: linear-gradient(-30deg, transparent 100%, black 150%);
   -webkit-mask-image: var(--mask);
   mask-image: var(--mask);
 }
+*/
 
 ::-webkit-scrollbar {
   width: 0.6em;
