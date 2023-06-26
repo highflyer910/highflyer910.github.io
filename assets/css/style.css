@@ -172,11 +172,11 @@ a:hover {
 .split__bio a {
   color: var(--blue);
   background:
-     linear-gradient(
-       to bottom,
-       var(--blue) 0%,
-       var(--blue) 100%
-     );
+    linear-gradient(
+      to bottom,
+      var(--blue) 0%,
+      var(--blue) 100%
+    );
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 2px 2px;
@@ -226,10 +226,9 @@ h2 {
 
 .split__projects {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 25px auto;
   align-items: center;
-  padding: 10% 0 10% 0;
-  font-size: 18px;
+  font-size: 1.12rem;
 }
 
 .flex__grid--item {
@@ -261,9 +260,8 @@ ul {
 
 .split__info li {
   font-family: "Poppins", Sans-Serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--blue);
-  padding-top: 10px;
 }
 
 .split__info li:nth-child(1)::selection {
@@ -276,7 +274,7 @@ ul {
   padding-left: 0.5vw;
   padding-right: 0.5vw;
   transition: color 0.2s ease;
-  font-size: 22px;
+  font-size: 1.4rem;
 }
 
 .split__social a {
@@ -289,9 +287,21 @@ ul {
 
 .split__credit {
   padding-top: 70px;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 10px;
   font-family: "Poppins", Sans-Serif;
+  color: var(--blue);
+}
+
+.tools_grid .tools{
+  border-radius: 5px;
+  background: var(--yellow);
+  font-size: 1.2rem;
+  margin: 35px 2%;
+  padding: 12px 0 12px 8px;
+}
+
+.tools a{
   color: var(--blue);
 }
 
