@@ -23,6 +23,10 @@ body.page-split p {
   color: var(--blue);
 }
 
+p{
+  margin-block: 10px;
+}
+
 /**
 .mask {
   --mask: linear-gradient(-30deg, transparent 100%, black 150%);

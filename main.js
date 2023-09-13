@@ -8,6 +8,7 @@ var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturda
 
 
 document.getElementById('wday').innerHTML = ("Happy " + days[d.getDay()] + "!");
+document.getElementById('year').innerHTML = `Copyright © ${d.getFullYear().toString()}`;
 
 /** 
 gsap.to('.mask', {
