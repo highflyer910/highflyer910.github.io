@@ -36,49 +36,13 @@
         <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins:300" rel="stylesheet" />
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen" />
         <base target="_blank" />
+        <script src="libs/gsap/gsap.min.js" defer></script>
+        <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+        <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+        <script src="main.js" defer></script>
     </head>
 
     <body class="page-split">
-        
-        <div class="snowflakes" aria-hidden="true">
-            <div class="snowflake">
-                <div class="inner">❅</div>
-            </div>
-            <div class="snowflake">
-                <div class="inner">❅</div>
-            </div>
-            <div class="snowflake">
-                <div class="inner">❅</div>
-            </div>
-            <div class="snowflake">
-                <div class="inner">❅</div>
-            </div>
-            <div class="snowflake">
-                <div class="inner">❅</div>
-            </div>
-            <div class="snowflake">
-                <div class="inner">❅</div>
-            </div>
-            <div class="snowflake">
-                <div class="inner">❅</div>
-            </div>
-            <div class="snowflake">
-                <div class="inner">❅</div>
-            </div>
-            <div class="snowflake">
-                <div class="inner">❅</div>
-            </div>
-            <div class="snowflake">
-                <div class="inner">❅</div>
-            </div>
-            <div class="snowflake">
-                <div class="inner">❅</div>
-            </div>
-            <div class="snowflake">
-                <div class="inner">❅</div>
-            </div>
-        </div>
-
 
         <div class="split">
             <div class="home">
@@ -113,13 +77,13 @@
             </div>
             <!-- Content Side -->
             <div class="split__content">
-                <div class="split__center">
-                    <div class="split__intro mask">
+                <div data-speed=".7" class="split__center">
+                    <div class="split__intro gsap-trigger">
                         <h1>Teona Mushambadze</h1>
                         <span class="split__intro--title">Front End Developer</span>
                     </div>
 
-                    <div class="split__bio mask">
+                    <div class="split__bio gsap-trigger">
                         <p>
                             - I am a self-taught front-end developer/graphic designer who is constantly learning.<br />
                             - I occasionally write <a href="https://geekspeak.netlify.app/" title="My Blog" rel="noopener">blog</a> posts about the things I learn. <br />
@@ -133,9 +97,9 @@
                         </p>
                     </div>
 
-                    <h2>Projects</h2>
+                    <h2 class="gsap-trigger">Projects</h2>
 
-                    <div class="grid split__projects">
+                    <div class="gsap-trogger grid split__projects">
                         <div class="flex__grid flex__grid--item">
                             <a href="https://codequests.netlify.app/" rel="noopener">
                                 <h4>Codequests </h4>
@@ -283,6 +247,4 @@
             </div>
         </div>
     </body>
-    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
-    <script src="main.js"></script>
 </html>
