@@ -309,6 +309,13 @@ ul {
   color: var(--blue);
 }
 
+.tech {
+  font-size: 0.8rem;
+  color: var(--blue);
+  text-align: center;
+}
+
+
 .tools_grid .tools{
   border-radius: 7px;
   border: 1px solid #77BAA9;
