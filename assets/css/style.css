@@ -7,16 +7,22 @@
 }
 
 :root {
-  --yellow: #F5F5F5;
-  --blue: #91B1A9;
+  --yellow: #EDE3B4;
+  --blue: #074654;
 }
 
 body.page-split {
   background-color: var(--yellow);
-  background: url(https://grainy-gradients.vercel.app/noise.svg), transparent;
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
+}
+
+.split {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: url(https://grainy-gradients.vercel.app/noise.svg), var(--yellow);
 }
 
 body.page-split p {
@@ -157,7 +163,8 @@ a:hover {
   text-transform: uppercase;
   font-size: 18px;
   margin-bottom: 20px;
-  color: #728b85;
+  color: var(--blue);
+  letter-spacing: 1px;
 }
 
 .split__intro .split__intro--title {
@@ -222,8 +229,9 @@ h2 {
 .flex__grid {
   height: 150px;
   margin: 2%;
-  border-radius: 5px;
+  border-radius: 7px;
   background: var(--yellow);
+  border: 1px solid #77BAA9;
   /*box-shadow: 7px 7px 10px rgb(117, 127, 141), -7px -7px 10px rgb(199, 215, 239);*/
 }
 
@@ -290,7 +298,7 @@ ul {
 }
 
 .split__social a:hover {
-  color: #728b85;
+  color: #77BAA9;
 }
 
 .split__credit {
@@ -302,7 +310,8 @@ ul {
 }
 
 .tools_grid .tools{
-  border-radius: 5px;
+  border-radius: 7px;
+  border: 1px solid #77BAA9;
   background: var(--yellow);
   font-size: 1.2rem;
   margin: 35px 2%;
