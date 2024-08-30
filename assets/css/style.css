@@ -313,6 +313,7 @@ ul {
   font-size: 0.8rem;
   color: var(--blue);
   text-align: center;
+  padding-inline: 5px;
 }
 
 
