@@ -7,8 +7,8 @@
 }
 
 :root {
-  --yellow: #EDE3B4;
-  --blue: #074654;
+  --yellow: #7ca7eb;
+  --blue: #402924;
 }
 
 body.page-split {
@@ -106,7 +106,7 @@ a:visited {
 }
 
 a:hover {
-  color: #fff;
+  color: #a7c3f1;
 }
 
 #text {
@@ -231,7 +231,7 @@ h2 {
   margin: 2%;
   border-radius: 7px;
   background: var(--yellow);
-  border: 1px solid #77BAA9;
+  border: 1px solid #7781ba;
   /*box-shadow: 7px 7px 10px rgb(117, 127, 141), -7px -7px 10px rgb(199, 215, 239);*/
 }
 
@@ -282,7 +282,7 @@ ul {
 
 .split__info li:nth-child(1)::selection {
   color: var(--yellow);
-  background-color: var(--green);
+  background-color: var(--blue);
 }
 
 .split__info li .split__social {
@@ -298,7 +298,7 @@ ul {
 }
 
 .split__social a:hover {
-  color: #77BAA9;
+  color: #52352e;
 }
 
 .split__credit {
@@ -319,7 +319,7 @@ ul {
 
 .tools_grid .tools{
   border-radius: 7px;
-  border: 1px solid #77BAA9;
+  border: 1px solid #52352e;
   background: var(--yellow);
   font-size: 1.2rem;
   margin: 35px 2%;
