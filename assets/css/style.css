@@ -7,8 +7,8 @@
 }
 
 :root {
-  --yellow: #7ca7eb;
-  --blue: #402924;
+  --yellow: #C4FF55;
+  --blue: #022116;
 }
 
 body.page-split {
@@ -67,7 +67,7 @@ p{
 .split .home {
   width: 50%;
   background-color: var(--blue);
-  box-shadow: 12px 12px 25px rgb(117, 127, 141);
+  box-shadow: 12px 12px 25px rgb(117, 141, 125);
 }
 
 .home__text {
@@ -106,7 +106,7 @@ a:visited {
 }
 
 a:hover {
-  color: #a7c3f1;
+  color: #efffb4;
 }
 
 #text {
@@ -231,7 +231,7 @@ h2 {
   margin: 2%;
   border-radius: 7px;
   background: var(--yellow);
-  border: 1px solid #7781ba;
+  border: 1px solid #1e5835;
   /*box-shadow: 7px 7px 10px rgb(117, 127, 141), -7px -7px 10px rgb(199, 215, 239);*/
 }
 
@@ -298,7 +298,7 @@ ul {
 }
 
 .split__social a:hover {
-  color: #52352e;
+  color: #1e5835;
 }
 
 .split__credit {
@@ -319,7 +319,7 @@ ul {
 
 .tools_grid .tools{
   border-radius: 7px;
-  border: 1px solid #52352e;
+  border: 1px solid #1e5835;
   background: var(--yellow);
   font-size: 1.2rem;
   margin: 35px 2%;
